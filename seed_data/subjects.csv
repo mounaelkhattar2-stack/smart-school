@@ -1,0 +1,11 @@
+﻿code,matiere,heures_par_classe_par_semaine,couleur,salle_habituelle
+MAT,Mathématiques,4,#2563EB,Salle 101
+FRA,Français,3,#7C3AED,Salle 102
+ARA,Arabe,3,#0891B2,Salle 103
+PHY,Physique-Chimie,3,#EA580C,Laboratoire 201
+SVT,Sciences de la Vie et de la Terre (SVT),2,#059669,Laboratoire 202
+PHI,Philosophie,2,#DB2777,Salle 104
+HGE,Histoire-Géographie,2,#D97706,Salle 105
+EDU,Éducation islamique,2,#4F46E5,Salle 106
+EPS,Éducation physique et sportive,2,#65A30D,Terrain de sport
+INF,Informatique,1,#475569,Salle informatique

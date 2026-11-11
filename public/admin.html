@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2457d6">
+  <title>SMART SCHOOL — Administration</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="/admin.css">
+  <link rel="stylesheet" href="/admin-extra.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+    <section class="admin-app" id="admin-app">
+      <button class="sidebar-scrim" id="sidebar-scrim" type="button" aria-label="Fermer le menu"></button>
+      <aside class="admin-sidebar" id="admin-sidebar" aria-label="Navigation principale">
+        <div class="sidebar-brand"><div class="mini-mark" aria-hidden="true">SC</div><div><strong>SMART SCHOOL</strong><span>Administration</span></div><button class="sidebar-close" id="sidebar-close" type="button" aria-label="Fermer le menu">×</button></div>
+        <div class="sidebar-school"><span class="school-avatar">EK</span><div><strong>Établissement</strong><span>Abdlkrim El Khatabi</span></div><span class="school-caret" aria-hidden="true">⌄</span></div>
+        <p class="nav-caption">GESTION SCOLAIRE</p>
+        <nav class="admin-nav" id="admin-nav">
+          <button class="nav-item active" data-view="dashboard" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="14" y="3" width="7" height="5" rx="2"/><rect x="14" y="11" width="7" height="10" rx="2"/><rect x="3" y="14" width="8" height="7" rx="2"/></svg><span>Tableau de bord</span></button>
+          <button class="nav-item" data-view="students" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M3 20c0-3.2 2.5-5.5 6-5.5s6 2.3 6 5.5M16 5.5a3.3 3.3 0 0 1 0 6.4M17 15c2.5.5 4 2.2 4 5"/></svg><span>Élèves</span><span class="nav-count" id="student-count"></span></button>
+          <button class="nav-item" data-view="teachers" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.5 2.8-6 7-6s7 2.5 7 6M18 4l1.5 1.5L22 3"/></svg><span>Enseignants</span></button>
+          <button class="nav-item" data-view="parents" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2.5 20c0-3.3 2.1-5.4 5.5-5.4s5.5 2.1 5.5 5.4M14 15c3.6-.8 7 .9 7 4.5"/></svg><span>Parents</span></button>
+          <button class="nav-item" data-view="classes" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20V5l9-2 9 2v15M3 9h18M8 9v11m8-11v11M2 20h20"/></svg><span>Classes</span></button>
+          <button class="nav-item" data-view="absences" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M8 2v4m8-4v4M3 9h18m-9 3v4m0 0 2-2m-2 2-2-2"/></svg><span>Absences</span></button>
+          <button class="nav-item" data-view="timetable" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M8 2v4m8-4v4M3 9h18m-13 4h3m3 0h3m-9 4h3m3 0h3"/></svg><span>Emploi du temps</span></button>
+          <button class="nav-item" data-view="requests" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v13H8l-4 4zM8 9h8m-8 4h5"/></svg><span>Demandes d'inscription</span><span class="nav-count warning" id="request-count"></span></button>
+          <button class="nav-item" data-view="notifications" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9m-8 12h4"/></svg><span>Notifications</span></button>
+          <button class="nav-item" data-view="settings" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1 1.4 1.1-1.5 2.6-1.7-.7a8 8 0 0 1-1.7 1l-.3 1.9h-3l-.3-1.9a8 8 0 0 1-1.7-1l-1.7.7-1.5-2.6 1.4-1.1a7 7 0 0 1 0-2l-1.4-1.1 1.5-2.6 1.7.7a8 8 0 0 1 1.7-1l.3-1.9h3l.3 1.9a8 8 0 0 1 1.7 1l1.7-.7 1.5 2.6-1.4 1.1a7 7 0 0 1 0 2Z" transform="translate(-1 -1) scale(.96)"/></svg><span>Paramètres</span></button>
+        </nav>
+        <div class="sidebar-bottom"><div class="sidebar-note"><span class="note-icon">i</span><div><strong>Données initiales</strong><span>Les fiches générées restent à vérifier.</span></div></div><div class="sidebar-profile"><span class="profile-avatar">D</span><div class="profile-copy"><strong id="admin-user-name">Direction</strong><span>Administrateur</span></div><button id="admin-logout" class="logout-icon" type="button" aria-label="Se déconnecter" title="Se déconnecter">↗</button></div></div>
+      </aside>
+      <div class="admin-main">
+        <header class="admin-topbar"><button class="mobile-menu" id="mobile-menu" type="button" aria-label="Ouvrir le menu">☰</button><div class="top-title"><span>SMART SCHOOL</span><b aria-hidden="true">/</b><strong id="top-page-title">Tableau de bord</strong></div><div class="top-actions"><span class="today-chip" id="today-chip"></span><button class="top-notification" type="button" data-open-view="notifications" aria-label="Notifications">♧<i id="notification-dot"></i></button><span class="top-avatar">D</span></div></header>
+        <div class="admin-content" id="admin-content" tabindex="-1" aria-live="polite"></div>
+      </div>
+      <div class="drawer-backdrop" id="drawer-backdrop"></div><aside class="detail-drawer" id="detail-drawer" aria-label="Détails" aria-hidden="true"><button class="drawer-close" id="drawer-close" type="button" aria-label="Fermer">×</button><div id="drawer-content"></div></aside>
+    </section>
+  <dialog class="decision-dialog" id="decision-dialog"><form method="dialog" id="decision-form"><button class="dialog-close" value="cancel" aria-label="Fermer">×</button><p class="eyebrow">DÉCISION DE LA DIRECTION</p><h2 id="decision-title">Traiter la demande</h2><p id="decision-child" class="dialog-child"></p><label for="rejection-reason">Motif du refus</label><textarea id="rejection-reason" rows="4" maxlength="500" placeholder="Indiquez le motif du refus"></textarea><div class="dialog-actions"><button class="button-quiet" value="cancel">Annuler</button><button class="button-danger" id="confirm-reject" type="button">Refuser la demande</button></div></form></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

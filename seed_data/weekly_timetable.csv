@@ -1,0 +1,121 @@
+﻿lesson_id,jour,jour_index,shift,creneau_code,debut,fin,classe_id,matiere_code,matiere,teacher_id,enseignant,salle,couleur
+SEM26-01-TCSF2-S1,Lundi,1,Après-midi,S1,14:00,15:00,TCSF2,MAT,Mathématiques,ENS-MAT-A,Rachid Zerouali,Salle 101,#2563EB
+SEM26-01-TCSF4-S1,Lundi,1,Après-midi,S1,14:00,15:00,TCSF4,HGE,Histoire-Géographie,ENS-HGE-A,Bilal Saidi,Salle 105,#D97706
+SEM26-01-TCSF2-S2,Lundi,1,Après-midi,S2,15:00,16:00,TCSF2,EDU,Éducation islamique,ENS-EDU-A,Ghita Naciri,Salle 106,#4F46E5
+SEM26-01-TCSF4-S2,Lundi,1,Après-midi,S2,15:00,16:00,TCSF4,ARA,Arabe,ENS-ARA-A,Adil Ouazzani,Salle 103,#0891B2
+SEM26-01-TCSF2-S3,Lundi,1,Après-midi,S3,16:00,17:00,TCSF2,PHI,Philosophie,ENS-PHI-A,Loubna Lamrani,Salle 104,#DB2777
+SEM26-01-TCSF4-S3,Lundi,1,Après-midi,S3,16:00,17:00,TCSF4,MAT,Mathématiques,ENS-MAT-A,Rachid Zerouali,Salle 101,#2563EB
+SEM26-01-TCSF2-S4,Lundi,1,Après-midi,S4,17:00,18:00,TCSF2,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-A,Karim Mouline,Laboratoire 202,#059669
+SEM26-01-TCSF4-S4,Lundi,1,Après-midi,S4,17:00,18:00,TCSF4,FRA,Français,ENS-FRA-A,Meryem Lahlou,Salle 102,#7C3AED
+SEM26-01-TCSF1-M1,Lundi,1,Matin,M1,08:00,09:00,TCSF1,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-01-TCSF3-M1,Lundi,1,Matin,M1,08:00,09:00,TCSF3,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-01-TCSF5-M1,Lundi,1,Matin,M1,08:00,09:00,TCSF5,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-01-TCSF1-M2,Lundi,1,Matin,M2,09:00,10:00,TCSF1,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-01-TCSF3-M2,Lundi,1,Matin,M2,09:00,10:00,TCSF3,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-01-TCSF5-M2,Lundi,1,Matin,M2,09:00,10:00,TCSF5,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-01-TCSF1-M3,Lundi,1,Matin,M3,10:00,11:00,TCSF1,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-01-TCSF3-M3,Lundi,1,Matin,M3,10:00,11:00,TCSF3,HGE,Histoire-Géographie,ENS-HGE-M,Mehdi El Fassi,Salle 105,#D97706
+SEM26-01-TCSF5-M3,Lundi,1,Matin,M3,10:00,11:00,TCSF5,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-01-TCSF1-M4,Lundi,1,Matin,M4,11:00,12:00,TCSF1,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-01-TCSF3-M4,Lundi,1,Matin,M4,11:00,12:00,TCSF3,PHI,Philosophie,ENS-PHI-M,Imane Tahiri,Salle 104,#DB2777
+SEM26-01-TCSF5-M4,Lundi,1,Matin,M4,11:00,12:00,TCSF5,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-02-TCSF2-S1,Mardi,2,Après-midi,S1,14:00,15:00,TCSF2,PHI,Philosophie,ENS-PHI-A,Loubna Lamrani,Salle 104,#DB2777
+SEM26-02-TCSF4-S1,Mardi,2,Après-midi,S1,14:00,15:00,TCSF4,MAT,Mathématiques,ENS-MAT-A,Rachid Zerouali,Salle 101,#2563EB
+SEM26-02-TCSF2-S2,Mardi,2,Après-midi,S2,15:00,16:00,TCSF2,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-A,Karim Mouline,Laboratoire 202,#059669
+SEM26-02-TCSF4-S2,Mardi,2,Après-midi,S2,15:00,16:00,TCSF4,PHY,Physique-Chimie,ENS-PHY-A,Houda Belkadi,Laboratoire 201,#EA580C
+SEM26-02-TCSF2-S3,Mardi,2,Après-midi,S3,16:00,17:00,TCSF2,PHY,Physique-Chimie,ENS-PHY-A,Houda Belkadi,Laboratoire 201,#EA580C
+SEM26-02-TCSF4-S3,Mardi,2,Après-midi,S3,16:00,17:00,TCSF4,PHI,Philosophie,ENS-PHI-A,Loubna Lamrani,Salle 104,#DB2777
+SEM26-02-TCSF2-S4,Mardi,2,Après-midi,S4,17:00,18:00,TCSF2,EPS,Éducation physique et sportive,ENS-EPS-A,Amine Boukili,Terrain de sport,#65A30D
+SEM26-02-TCSF4-S4,Mardi,2,Après-midi,S4,17:00,18:00,TCSF4,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-A,Karim Mouline,Laboratoire 202,#059669
+SEM26-02-TCSF1-M1,Mardi,2,Matin,M1,08:00,09:00,TCSF1,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-02-TCSF3-M1,Mardi,2,Matin,M1,08:00,09:00,TCSF3,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-02-TCSF5-M1,Mardi,2,Matin,M1,08:00,09:00,TCSF5,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-02-TCSF1-M2,Mardi,2,Matin,M2,09:00,10:00,TCSF1,INF,Informatique,ENS-INF-M,Sanae Kabbaj,Salle informatique,#475569
+SEM26-02-TCSF3-M2,Mardi,2,Matin,M2,09:00,10:00,TCSF3,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-M,Omar Berrada,Laboratoire 202,#059669
+SEM26-02-TCSF5-M2,Mardi,2,Matin,M2,09:00,10:00,TCSF5,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-02-TCSF1-M3,Mardi,2,Matin,M3,10:00,11:00,TCSF1,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-M,Omar Berrada,Laboratoire 202,#059669
+SEM26-02-TCSF3-M3,Mardi,2,Matin,M3,10:00,11:00,TCSF3,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-02-TCSF5-M3,Mardi,2,Matin,M3,10:00,11:00,TCSF5,HGE,Histoire-Géographie,ENS-HGE-M,Mehdi El Fassi,Salle 105,#D97706
+SEM26-02-TCSF1-M4,Mardi,2,Matin,M4,11:00,12:00,TCSF1,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-02-TCSF3-M4,Mardi,2,Matin,M4,11:00,12:00,TCSF3,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-02-TCSF5-M4,Mardi,2,Matin,M4,11:00,12:00,TCSF5,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-03-TCSF1-S1,Mercredi,3,Après-midi,S1,14:00,15:00,TCSF1,EPS,Éducation physique et sportive,ENS-EPS-A,Amine Boukili,Terrain de sport,#65A30D
+SEM26-03-TCSF3-S1,Mercredi,3,Après-midi,S1,14:00,15:00,TCSF3,ARA,Arabe,ENS-ARA-A,Adil Ouazzani,Salle 103,#0891B2
+SEM26-03-TCSF5-S1,Mercredi,3,Après-midi,S1,14:00,15:00,TCSF5,MAT,Mathématiques,ENS-MAT-A,Rachid Zerouali,Salle 101,#2563EB
+SEM26-03-TCSF1-S2,Mercredi,3,Après-midi,S2,15:00,16:00,TCSF1,ARA,Arabe,ENS-ARA-A,Adil Ouazzani,Salle 103,#0891B2
+SEM26-03-TCSF3-S2,Mercredi,3,Après-midi,S2,15:00,16:00,TCSF3,EPS,Éducation physique et sportive,ENS-EPS-A,Amine Boukili,Terrain de sport,#65A30D
+SEM26-03-TCSF5-S2,Mercredi,3,Après-midi,S2,15:00,16:00,TCSF5,PHI,Philosophie,ENS-PHI-A,Loubna Lamrani,Salle 104,#DB2777
+SEM26-03-TCSF1-S3,Mercredi,3,Après-midi,S3,16:00,17:00,TCSF1,PHY,Physique-Chimie,ENS-PHY-A,Houda Belkadi,Laboratoire 201,#EA580C
+SEM26-03-TCSF3-S3,Mercredi,3,Après-midi,S3,16:00,17:00,TCSF3,HGE,Histoire-Géographie,ENS-HGE-A,Bilal Saidi,Salle 105,#D97706
+SEM26-03-TCSF5-S3,Mercredi,3,Après-midi,S3,16:00,17:00,TCSF5,ARA,Arabe,ENS-ARA-A,Adil Ouazzani,Salle 103,#0891B2
+SEM26-03-TCSF1-S4,Mercredi,3,Après-midi,S4,17:00,18:00,TCSF1,HGE,Histoire-Géographie,ENS-HGE-A,Bilal Saidi,Salle 105,#D97706
+SEM26-03-TCSF3-S4,Mercredi,3,Après-midi,S4,17:00,18:00,TCSF3,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-A,Karim Mouline,Laboratoire 202,#059669
+SEM26-03-TCSF5-S4,Mercredi,3,Après-midi,S4,17:00,18:00,TCSF5,PHY,Physique-Chimie,ENS-PHY-A,Houda Belkadi,Laboratoire 201,#EA580C
+SEM26-03-TCSF2-M1,Mercredi,3,Matin,M1,08:00,09:00,TCSF2,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-03-TCSF4-M1,Mercredi,3,Matin,M1,08:00,09:00,TCSF4,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-03-TCSF2-M2,Mercredi,3,Matin,M2,09:00,10:00,TCSF2,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-03-TCSF4-M2,Mercredi,3,Matin,M2,09:00,10:00,TCSF4,EPS,Éducation physique et sportive,ENS-EPS-M,Anas Mansouri,Terrain de sport,#65A30D
+SEM26-03-TCSF2-M3,Mercredi,3,Matin,M3,10:00,11:00,TCSF2,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-03-TCSF4-M3,Mercredi,3,Matin,M3,10:00,11:00,TCSF4,HGE,Histoire-Géographie,ENS-HGE-M,Mehdi El Fassi,Salle 105,#D97706
+SEM26-03-TCSF2-M4,Mercredi,3,Matin,M4,11:00,12:00,TCSF2,HGE,Histoire-Géographie,ENS-HGE-M,Mehdi El Fassi,Salle 105,#D97706
+SEM26-03-TCSF4-M4,Mercredi,3,Matin,M4,11:00,12:00,TCSF4,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-04-TCSF1-S1,Jeudi,4,Après-midi,S1,14:00,15:00,TCSF1,EDU,Éducation islamique,ENS-EDU-A,Ghita Naciri,Salle 106,#4F46E5
+SEM26-04-TCSF3-S1,Jeudi,4,Après-midi,S1,14:00,15:00,TCSF3,PHY,Physique-Chimie,ENS-PHY-A,Houda Belkadi,Laboratoire 201,#EA580C
+SEM26-04-TCSF5-S1,Jeudi,4,Après-midi,S1,14:00,15:00,TCSF5,FRA,Français,ENS-FRA-A,Meryem Lahlou,Salle 102,#7C3AED
+SEM26-04-TCSF1-S2,Jeudi,4,Après-midi,S2,15:00,16:00,TCSF1,MAT,Mathématiques,ENS-MAT-A,Rachid Zerouali,Salle 101,#2563EB
+SEM26-04-TCSF3-S2,Jeudi,4,Après-midi,S2,15:00,16:00,TCSF3,PHI,Philosophie,ENS-PHI-A,Loubna Lamrani,Salle 104,#DB2777
+SEM26-04-TCSF5-S2,Jeudi,4,Après-midi,S2,15:00,16:00,TCSF5,INF,Informatique,ENS-INF-A,Zineb El Gharbi,Salle informatique,#475569
+SEM26-04-TCSF1-S3,Jeudi,4,Après-midi,S3,16:00,17:00,TCSF1,PHI,Philosophie,ENS-PHI-A,Loubna Lamrani,Salle 104,#DB2777
+SEM26-04-TCSF3-S3,Jeudi,4,Après-midi,S3,16:00,17:00,TCSF3,FRA,Français,ENS-FRA-A,Meryem Lahlou,Salle 102,#7C3AED
+SEM26-04-TCSF5-S3,Jeudi,4,Après-midi,S3,16:00,17:00,TCSF5,EPS,Éducation physique et sportive,ENS-EPS-A,Amine Boukili,Terrain de sport,#65A30D
+SEM26-04-TCSF1-S4,Jeudi,4,Après-midi,S4,17:00,18:00,TCSF1,PHY,Physique-Chimie,ENS-PHY-A,Houda Belkadi,Laboratoire 201,#EA580C
+SEM26-04-TCSF3-S4,Jeudi,4,Après-midi,S4,17:00,18:00,TCSF3,INF,Informatique,ENS-INF-A,Zineb El Gharbi,Salle informatique,#475569
+SEM26-04-TCSF5-S4,Jeudi,4,Après-midi,S4,17:00,18:00,TCSF5,PHI,Philosophie,ENS-PHI-A,Loubna Lamrani,Salle 104,#DB2777
+SEM26-04-TCSF2-M1,Jeudi,4,Matin,M1,08:00,09:00,TCSF2,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-04-TCSF4-M1,Jeudi,4,Matin,M1,08:00,09:00,TCSF4,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-04-TCSF2-M2,Jeudi,4,Matin,M2,09:00,10:00,TCSF2,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-04-TCSF4-M2,Jeudi,4,Matin,M2,09:00,10:00,TCSF4,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-M,Omar Berrada,Laboratoire 202,#059669
+SEM26-04-TCSF2-M3,Jeudi,4,Matin,M3,10:00,11:00,TCSF2,INF,Informatique,ENS-INF-M,Sanae Kabbaj,Salle informatique,#475569
+SEM26-04-TCSF4-M3,Jeudi,4,Matin,M3,10:00,11:00,TCSF4,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-04-TCSF2-M4,Jeudi,4,Matin,M4,11:00,12:00,TCSF2,EPS,Éducation physique et sportive,ENS-EPS-M,Anas Mansouri,Terrain de sport,#65A30D
+SEM26-04-TCSF4-M4,Jeudi,4,Matin,M4,11:00,12:00,TCSF4,PHI,Philosophie,ENS-PHI-M,Imane Tahiri,Salle 104,#DB2777
+SEM26-05-TCSF1-M1,Vendredi,5,Matin,M1,08:00,09:00,TCSF1,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-05-TCSF2-M1,Vendredi,5,Matin,M1,08:00,09:00,TCSF2,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-05-TCSF3-M1,Vendredi,5,Matin,M1,08:00,09:00,TCSF3,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-05-TCSF4-M1,Vendredi,5,Matin,M1,08:00,09:00,TCSF4,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-05-TCSF5-M1,Vendredi,5,Matin,M1,08:00,09:00,TCSF5,EPS,Éducation physique et sportive,ENS-EPS-M,Anas Mansouri,Terrain de sport,#65A30D
+SEM26-05-TCSF1-M2,Vendredi,5,Matin,M2,09:00,10:00,TCSF1,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-05-TCSF2-M2,Vendredi,5,Matin,M2,09:00,10:00,TCSF2,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-05-TCSF3-M2,Vendredi,5,Matin,M2,09:00,10:00,TCSF3,EPS,Éducation physique et sportive,ENS-EPS-M,Anas Mansouri,Terrain de sport,#65A30D
+SEM26-05-TCSF4-M2,Vendredi,5,Matin,M2,09:00,10:00,TCSF4,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-05-TCSF5-M2,Vendredi,5,Matin,M2,09:00,10:00,TCSF5,HGE,Histoire-Géographie,ENS-HGE-M,Mehdi El Fassi,Salle 105,#D97706
+SEM26-05-TCSF1-M3,Vendredi,5,Matin,M3,10:00,11:00,TCSF1,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-05-TCSF2-M3,Vendredi,5,Matin,M3,10:00,11:00,TCSF2,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-05-TCSF3-M3,Vendredi,5,Matin,M3,10:00,11:00,TCSF3,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-05-TCSF4-M3,Vendredi,5,Matin,M3,10:00,11:00,TCSF4,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-05-TCSF5-M3,Vendredi,5,Matin,M3,10:00,11:00,TCSF5,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-05-TCSF1-M4,Vendredi,5,Matin,M4,11:00,12:00,TCSF1,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-05-TCSF2-M4,Vendredi,5,Matin,M4,11:00,12:00,TCSF2,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-05-TCSF3-M4,Vendredi,5,Matin,M4,11:00,12:00,TCSF3,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-05-TCSF4-M4,Vendredi,5,Matin,M4,11:00,12:00,TCSF4,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-05-TCSF5-M4,Vendredi,5,Matin,M4,11:00,12:00,TCSF5,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-M,Omar Berrada,Laboratoire 202,#059669
+SEM26-06-TCSF1-M1,Samedi,6,Matin,M1,08:00,09:00,TCSF1,PHI,Philosophie,ENS-PHI-M,Imane Tahiri,Salle 104,#DB2777
+SEM26-06-TCSF2-M1,Samedi,6,Matin,M1,08:00,09:00,TCSF2,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-06-TCSF3-M1,Samedi,6,Matin,M1,08:00,09:00,TCSF3,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-06-TCSF4-M1,Samedi,6,Matin,M1,08:00,09:00,TCSF4,INF,Informatique,ENS-INF-M,Sanae Kabbaj,Salle informatique,#475569
+SEM26-06-TCSF5-M1,Samedi,6,Matin,M1,08:00,09:00,TCSF5,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-06-TCSF1-M2,Samedi,6,Matin,M2,09:00,10:00,TCSF1,HGE,Histoire-Géographie,ENS-HGE-M,Mehdi El Fassi,Salle 105,#D97706
+SEM26-06-TCSF2-M2,Samedi,6,Matin,M2,09:00,10:00,TCSF2,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-06-TCSF3-M2,Samedi,6,Matin,M2,09:00,10:00,TCSF3,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-06-TCSF4-M2,Samedi,6,Matin,M2,09:00,10:00,TCSF4,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-06-TCSF5-M2,Samedi,6,Matin,M2,09:00,10:00,TCSF5,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-M,Omar Berrada,Laboratoire 202,#059669
+SEM26-06-TCSF1-M3,Samedi,6,Matin,M3,10:00,11:00,TCSF1,SVT,Sciences de la Vie et de la Terre (SVT),ENS-SVT-M,Omar Berrada,Laboratoire 202,#059669
+SEM26-06-TCSF2-M3,Samedi,6,Matin,M3,10:00,11:00,TCSF2,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED
+SEM26-06-TCSF3-M3,Samedi,6,Matin,M3,10:00,11:00,TCSF3,EDU,Éducation islamique,ENS-EDU-M,Khadija Chraibi,Salle 106,#4F46E5
+SEM26-06-TCSF4-M3,Samedi,6,Matin,M3,10:00,11:00,TCSF4,EPS,Éducation physique et sportive,ENS-EPS-M,Anas Mansouri,Terrain de sport,#65A30D
+SEM26-06-TCSF5-M3,Samedi,6,Matin,M3,10:00,11:00,TCSF5,PHY,Physique-Chimie,ENS-PHY-M,Nadia Idrissi,Laboratoire 201,#EA580C
+SEM26-06-TCSF1-M4,Samedi,6,Matin,M4,11:00,12:00,TCSF1,EPS,Éducation physique et sportive,ENS-EPS-M,Anas Mansouri,Terrain de sport,#65A30D
+SEM26-06-TCSF2-M4,Samedi,6,Matin,M4,11:00,12:00,TCSF2,HGE,Histoire-Géographie,ENS-HGE-M,Mehdi El Fassi,Salle 105,#D97706
+SEM26-06-TCSF3-M4,Samedi,6,Matin,M4,11:00,12:00,TCSF3,ARA,Arabe,ENS-ARA-M,Hamza Alaoui,Salle 103,#0891B2
+SEM26-06-TCSF4-M4,Samedi,6,Matin,M4,11:00,12:00,TCSF4,MAT,Mathématiques,ENS-MAT-M,Youssef El Amrani,Salle 101,#2563EB
+SEM26-06-TCSF5-M4,Samedi,6,Matin,M4,11:00,12:00,TCSF5,FRA,Français,ENS-FRA-M,Salma Bennani,Salle 102,#7C3AED

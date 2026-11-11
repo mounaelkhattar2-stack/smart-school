@@ -1,0 +1,28 @@
+SMART CLASS — VALIDATION DU JEU INITIAL GÉNÉRÉ
+
+Classes: 5
+Élèves: 50 (10 par classe)
+Parents: 50 (1 enfant par parent; 50 comptes actifs)
+Enseignants: 20 (10 matières × équipes matin/après-midi)
+Direction: 1 compte
+Comptes individuels: 71
+Cours hebdomadaires: 120 (24 par classe)
+Lignes de présence initiales générées: 1200
+Demandes parent en attente au démarrage: 0
+
+Matières: Mathématiques, Français, Arabe, Physique-Chimie, SVT, Philosophie, Histoire-Géographie, Éducation islamique, EPS, Informatique.
+
+Contrôles de l'emploi du temps:
+- 24 cours par classe.
+- Répartition hebdomadaire des dix matières respectée dans chaque classe.
+- Aucun cours le dimanche.
+- Aucun cours le vendredi ou samedi après-midi.
+- Aucun cours pendant la pause de midi.
+- Maximum quatre heures d'enseignement par enseignant et par jour.
+- Aucun enseignant affecté aux deux shifts le même jour.
+- Aucun enseignant dans deux classes au même créneau.
+- Aucune classe avec deux cours dans le même créneau.
+
+IMPORTANT: toutes les identités, coordonnées, Codes Massar de forme fictive et historiques ont été générés. Ce sont les enregistrements initiaux à vérifier/remplacer avant usage officiel, et non des données officielles vérifiées. Les emails example.invalid ne sont pas distribuables.
+
+Comptes: mots de passe uniques dans private_input/COMPTES_INITIAUX_CONFIDENTIELS.csv et .txt. Ne jamais publier ces fichiers. SQLite doit contenir uniquement des hachages bcrypt.

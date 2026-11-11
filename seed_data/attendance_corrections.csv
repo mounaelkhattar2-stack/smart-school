@@ -1,0 +1,2 @@
+﻿correction_id,attendance_id,lesson_id,student_id,masar_id,eleve,statut_original,statut_corrige,motif,acteur,date_correction,note
+COR-001,ATT-00001,SEM26-01-TCSF1-M1,ELV-TCSF1-01,M26455096,Siham El Mansouri,ABSENT,PRESENT,Erreur de saisie vérifiée avec la feuille d'appel signée.,DIR-001,2026-11-09T14:20,L'événement d'origine ABSENT est conservé. Le statut effectif est calculé à partir de cet événement de correction séparé. Ce n'est pas une approbation de justification.

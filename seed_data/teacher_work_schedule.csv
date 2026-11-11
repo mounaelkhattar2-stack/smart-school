@@ -1,0 +1,121 @@
+﻿teacher_id,enseignant,jour,shift,debut_shift,fin_shift,heures_cours,statut_jour
+ENS-MAT-M,Youssef El Amrani,Lundi,Matin,08:00,12:00,3,Travail
+ENS-MAT-M,Youssef El Amrani,Mardi,Matin,08:00,12:00,3,Travail
+ENS-MAT-M,Youssef El Amrani,Mercredi,Matin,08:00,12:00,1,Travail
+ENS-MAT-M,Youssef El Amrani,Jeudi,Matin,08:00,12:00,1,Travail
+ENS-MAT-M,Youssef El Amrani,Vendredi,Matin,08:00,12:00,4,Travail
+ENS-MAT-M,Youssef El Amrani,Samedi,Matin,08:00,12:00,3,Travail
+ENS-MAT-A,Rachid Zerouali,Lundi,Après-midi,14:00,18:00,2,Travail
+ENS-MAT-A,Rachid Zerouali,Mardi,Après-midi,14:00,18:00,1,Travail
+ENS-MAT-A,Rachid Zerouali,Mercredi,Après-midi,14:00,18:00,1,Travail
+ENS-MAT-A,Rachid Zerouali,Jeudi,Après-midi,14:00,18:00,1,Travail
+ENS-MAT-A,Rachid Zerouali,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-MAT-A,Rachid Zerouali,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-FRA-M,Salma Bennani,Lundi,Matin,08:00,12:00,3,Travail
+ENS-FRA-M,Salma Bennani,Mardi,Matin,08:00,12:00,1,Travail
+ENS-FRA-M,Salma Bennani,Mercredi,Matin,08:00,12:00,0,Repos
+ENS-FRA-M,Salma Bennani,Jeudi,Matin,08:00,12:00,2,Travail
+ENS-FRA-M,Salma Bennani,Vendredi,Matin,08:00,12:00,3,Travail
+ENS-FRA-M,Salma Bennani,Samedi,Matin,08:00,12:00,3,Travail
+ENS-FRA-A,Meryem Lahlou,Lundi,Après-midi,14:00,18:00,1,Travail
+ENS-FRA-A,Meryem Lahlou,Mardi,Après-midi,14:00,18:00,0,Repos
+ENS-FRA-A,Meryem Lahlou,Mercredi,Après-midi,14:00,18:00,0,Repos
+ENS-FRA-A,Meryem Lahlou,Jeudi,Après-midi,14:00,18:00,2,Travail
+ENS-FRA-A,Meryem Lahlou,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-FRA-A,Meryem Lahlou,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-ARA-M,Hamza Alaoui,Lundi,Matin,08:00,12:00,2,Travail
+ENS-ARA-M,Hamza Alaoui,Mardi,Matin,08:00,12:00,1,Travail
+ENS-ARA-M,Hamza Alaoui,Mercredi,Matin,08:00,12:00,1,Travail
+ENS-ARA-M,Hamza Alaoui,Jeudi,Matin,08:00,12:00,1,Travail
+ENS-ARA-M,Hamza Alaoui,Vendredi,Matin,08:00,12:00,4,Travail
+ENS-ARA-M,Hamza Alaoui,Samedi,Matin,08:00,12:00,2,Travail
+ENS-ARA-A,Adil Ouazzani,Lundi,Après-midi,14:00,18:00,1,Travail
+ENS-ARA-A,Adil Ouazzani,Mardi,Après-midi,14:00,18:00,0,Repos
+ENS-ARA-A,Adil Ouazzani,Mercredi,Après-midi,14:00,18:00,3,Travail
+ENS-ARA-A,Adil Ouazzani,Jeudi,Après-midi,14:00,18:00,0,Repos
+ENS-ARA-A,Adil Ouazzani,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-ARA-A,Adil Ouazzani,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-PHY-M,Nadia Idrissi,Lundi,Matin,08:00,12:00,1,Travail
+ENS-PHY-M,Nadia Idrissi,Mardi,Matin,08:00,12:00,1,Travail
+ENS-PHY-M,Nadia Idrissi,Mercredi,Matin,08:00,12:00,2,Travail
+ENS-PHY-M,Nadia Idrissi,Jeudi,Matin,08:00,12:00,0,Repos
+ENS-PHY-M,Nadia Idrissi,Vendredi,Matin,08:00,12:00,4,Travail
+ENS-PHY-M,Nadia Idrissi,Samedi,Matin,08:00,12:00,1,Travail
+ENS-PHY-A,Houda Belkadi,Lundi,Après-midi,14:00,18:00,0,Repos
+ENS-PHY-A,Houda Belkadi,Mardi,Après-midi,14:00,18:00,2,Travail
+ENS-PHY-A,Houda Belkadi,Mercredi,Après-midi,14:00,18:00,2,Travail
+ENS-PHY-A,Houda Belkadi,Jeudi,Après-midi,14:00,18:00,2,Travail
+ENS-PHY-A,Houda Belkadi,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-PHY-A,Houda Belkadi,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-SVT-M,Omar Berrada,Lundi,Matin,08:00,12:00,0,Repos
+ENS-SVT-M,Omar Berrada,Mardi,Matin,08:00,12:00,2,Travail
+ENS-SVT-M,Omar Berrada,Mercredi,Matin,08:00,12:00,0,Repos
+ENS-SVT-M,Omar Berrada,Jeudi,Matin,08:00,12:00,1,Travail
+ENS-SVT-M,Omar Berrada,Vendredi,Matin,08:00,12:00,1,Travail
+ENS-SVT-M,Omar Berrada,Samedi,Matin,08:00,12:00,2,Travail
+ENS-SVT-A,Karim Mouline,Lundi,Après-midi,14:00,18:00,1,Travail
+ENS-SVT-A,Karim Mouline,Mardi,Après-midi,14:00,18:00,2,Travail
+ENS-SVT-A,Karim Mouline,Mercredi,Après-midi,14:00,18:00,1,Travail
+ENS-SVT-A,Karim Mouline,Jeudi,Après-midi,14:00,18:00,0,Repos
+ENS-SVT-A,Karim Mouline,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-SVT-A,Karim Mouline,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-PHI-M,Imane Tahiri,Lundi,Matin,08:00,12:00,1,Travail
+ENS-PHI-M,Imane Tahiri,Mardi,Matin,08:00,12:00,0,Repos
+ENS-PHI-M,Imane Tahiri,Mercredi,Matin,08:00,12:00,0,Repos
+ENS-PHI-M,Imane Tahiri,Jeudi,Matin,08:00,12:00,1,Travail
+ENS-PHI-M,Imane Tahiri,Vendredi,Matin,08:00,12:00,0,Repos
+ENS-PHI-M,Imane Tahiri,Samedi,Matin,08:00,12:00,1,Travail
+ENS-PHI-A,Loubna Lamrani,Lundi,Après-midi,14:00,18:00,1,Travail
+ENS-PHI-A,Loubna Lamrani,Mardi,Après-midi,14:00,18:00,2,Travail
+ENS-PHI-A,Loubna Lamrani,Mercredi,Après-midi,14:00,18:00,1,Travail
+ENS-PHI-A,Loubna Lamrani,Jeudi,Après-midi,14:00,18:00,3,Travail
+ENS-PHI-A,Loubna Lamrani,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-PHI-A,Loubna Lamrani,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-HGE-M,Mehdi El Fassi,Lundi,Matin,08:00,12:00,1,Travail
+ENS-HGE-M,Mehdi El Fassi,Mardi,Matin,08:00,12:00,1,Travail
+ENS-HGE-M,Mehdi El Fassi,Mercredi,Matin,08:00,12:00,2,Travail
+ENS-HGE-M,Mehdi El Fassi,Jeudi,Matin,08:00,12:00,0,Repos
+ENS-HGE-M,Mehdi El Fassi,Vendredi,Matin,08:00,12:00,1,Travail
+ENS-HGE-M,Mehdi El Fassi,Samedi,Matin,08:00,12:00,2,Travail
+ENS-HGE-A,Bilal Saidi,Lundi,Après-midi,14:00,18:00,1,Travail
+ENS-HGE-A,Bilal Saidi,Mardi,Après-midi,14:00,18:00,0,Repos
+ENS-HGE-A,Bilal Saidi,Mercredi,Après-midi,14:00,18:00,2,Travail
+ENS-HGE-A,Bilal Saidi,Jeudi,Après-midi,14:00,18:00,0,Repos
+ENS-HGE-A,Bilal Saidi,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-HGE-A,Bilal Saidi,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-EDU-M,Khadija Chraibi,Lundi,Matin,08:00,12:00,1,Travail
+ENS-EDU-M,Khadija Chraibi,Mardi,Matin,08:00,12:00,2,Travail
+ENS-EDU-M,Khadija Chraibi,Mercredi,Matin,08:00,12:00,1,Travail
+ENS-EDU-M,Khadija Chraibi,Jeudi,Matin,08:00,12:00,0,Repos
+ENS-EDU-M,Khadija Chraibi,Vendredi,Matin,08:00,12:00,1,Travail
+ENS-EDU-M,Khadija Chraibi,Samedi,Matin,08:00,12:00,3,Travail
+ENS-EDU-A,Ghita Naciri,Lundi,Après-midi,14:00,18:00,1,Travail
+ENS-EDU-A,Ghita Naciri,Mardi,Après-midi,14:00,18:00,0,Repos
+ENS-EDU-A,Ghita Naciri,Mercredi,Après-midi,14:00,18:00,0,Repos
+ENS-EDU-A,Ghita Naciri,Jeudi,Après-midi,14:00,18:00,1,Travail
+ENS-EDU-A,Ghita Naciri,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-EDU-A,Ghita Naciri,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-EPS-M,Anas Mansouri,Lundi,Matin,08:00,12:00,0,Repos
+ENS-EPS-M,Anas Mansouri,Mardi,Matin,08:00,12:00,0,Repos
+ENS-EPS-M,Anas Mansouri,Mercredi,Matin,08:00,12:00,1,Travail
+ENS-EPS-M,Anas Mansouri,Jeudi,Matin,08:00,12:00,1,Travail
+ENS-EPS-M,Anas Mansouri,Vendredi,Matin,08:00,12:00,2,Travail
+ENS-EPS-M,Anas Mansouri,Samedi,Matin,08:00,12:00,2,Travail
+ENS-EPS-A,Amine Boukili,Lundi,Après-midi,14:00,18:00,0,Repos
+ENS-EPS-A,Amine Boukili,Mardi,Après-midi,14:00,18:00,1,Travail
+ENS-EPS-A,Amine Boukili,Mercredi,Après-midi,14:00,18:00,2,Travail
+ENS-EPS-A,Amine Boukili,Jeudi,Après-midi,14:00,18:00,1,Travail
+ENS-EPS-A,Amine Boukili,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-EPS-A,Amine Boukili,Samedi,Après-midi,14:00,18:00,0,Repos
+ENS-INF-M,Sanae Kabbaj,Lundi,Matin,08:00,12:00,0,Repos
+ENS-INF-M,Sanae Kabbaj,Mardi,Matin,08:00,12:00,1,Travail
+ENS-INF-M,Sanae Kabbaj,Mercredi,Matin,08:00,12:00,0,Repos
+ENS-INF-M,Sanae Kabbaj,Jeudi,Matin,08:00,12:00,1,Travail
+ENS-INF-M,Sanae Kabbaj,Vendredi,Matin,08:00,12:00,0,Repos
+ENS-INF-M,Sanae Kabbaj,Samedi,Matin,08:00,12:00,1,Travail
+ENS-INF-A,Zineb El Gharbi,Lundi,Après-midi,14:00,18:00,0,Repos
+ENS-INF-A,Zineb El Gharbi,Mardi,Après-midi,14:00,18:00,0,Repos
+ENS-INF-A,Zineb El Gharbi,Mercredi,Après-midi,14:00,18:00,0,Repos
+ENS-INF-A,Zineb El Gharbi,Jeudi,Après-midi,14:00,18:00,2,Travail
+ENS-INF-A,Zineb El Gharbi,Vendredi,Après-midi,14:00,18:00,0,Repos
+ENS-INF-A,Zineb El Gharbi,Samedi,Après-midi,14:00,18:00,0,Repos

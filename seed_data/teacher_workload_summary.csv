@@ -1,0 +1,21 @@
+﻿matiere,enseignant,identifiant,shift,heures_semaine,max_heures_jour
+Arabe,Adil Ouazzani,ENS-ARA-A,Après-midi,4,3
+Arabe,Hamza Alaoui,ENS-ARA-M,Matin,11,4
+Français,Meryem Lahlou,ENS-FRA-A,Après-midi,3,2
+Français,Salma Bennani,ENS-FRA-M,Matin,12,3
+Histoire-Géographie,Bilal Saidi,ENS-HGE-A,Après-midi,3,2
+Histoire-Géographie,Mehdi El Fassi,ENS-HGE-M,Matin,7,2
+Informatique,Zineb El Gharbi,ENS-INF-A,Après-midi,2,2
+Informatique,Sanae Kabbaj,ENS-INF-M,Matin,3,1
+Mathématiques,Rachid Zerouali,ENS-MAT-A,Après-midi,5,2
+Mathématiques,Youssef El Amrani,ENS-MAT-M,Matin,15,4
+Philosophie,Loubna Lamrani,ENS-PHI-A,Après-midi,7,3
+Philosophie,Imane Tahiri,ENS-PHI-M,Matin,3,1
+Physique-Chimie,Houda Belkadi,ENS-PHY-A,Après-midi,6,2
+Physique-Chimie,Nadia Idrissi,ENS-PHY-M,Matin,9,4
+Sciences de la Vie et de la Terre (SVT),Karim Mouline,ENS-SVT-A,Après-midi,4,2
+Sciences de la Vie et de la Terre (SVT),Omar Berrada,ENS-SVT-M,Matin,6,2
+Éducation islamique,Ghita Naciri,ENS-EDU-A,Après-midi,2,1
+Éducation islamique,Khadija Chraibi,ENS-EDU-M,Matin,8,3
+Éducation physique et sportive,Amine Boukili,ENS-EPS-A,Après-midi,4,2
+Éducation physique et sportive,Anas Mansouri,ENS-EPS-M,Matin,6,2

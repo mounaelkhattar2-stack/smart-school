@@ -1,0 +1,51 @@
+﻿parent_id,login_id,nom,prenom,nom_complet,student_id,masar_id_enfant,nom_enfant,classe_id,numero_classe,email,telephone,statut_inscription,mot_de_passe_demo,date_demande,date_approbation
+PAR-001,M26455096,El Mansouri,Khadija,Khadija El Mansouri,ELV-TCSF1-01,M26455096,Siham El Mansouri,TCSF1,1,parent001@example.invalid,+212600000001,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-002,F26284849,El Idrissi,Salwa,Salwa El Idrissi,ELV-TCSF1-02,F26284849,Lina El Idrissi,TCSF1,2,parent002@example.invalid,+212600000002,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-003,M26143166,Tahiri,Latifa,Latifa Tahiri,ELV-TCSF1-03,M26143166,Nabil Tahiri,TCSF1,3,parent003@example.invalid,+212600000003,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-004,F26870554,Naciri,Ilham,Ilham Naciri,ELV-TCSF1-04,F26870554,Rayan Naciri,TCSF1,4,parent004@example.invalid,+212600000004,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-005,F26796786,Belkadi,Rachid,Rachid Belkadi,ELV-TCSF1-05,F26796786,Othmane Belkadi,TCSF1,5,parent005@example.invalid,+212600000005,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-006,M26201436,Lamrani,Zahra,Zahra Lamrani,ELV-TCSF1-06,M26201436,Mouad Lamrani,TCSF1,6,parent006@example.invalid,+212600000006,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-007,M26432762,Ouazzani,Mustapha,Mustapha Ouazzani,ELV-TCSF1-07,M26432762,Kawtar Ouazzani,TCSF1,7,parent007@example.invalid,+212600000007,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-008,F26484667,Haddad,Omar,Omar Haddad,ELV-TCSF1-08,F26484667,Aya Haddad,TCSF1,8,parent008@example.invalid,+212600000008,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-009,F26247149,Fadili,Mohamed,Mohamed Fadili,ELV-TCSF1-09,F26247149,Salma Fadili,TCSF1,9,parent009@example.invalid,+212600000009,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-010,F26697250,Jabri,Nawal,Nawal Jabri,ELV-TCSF1-10,F26697250,Sami Jabri,TCSF1,10,parent010@example.invalid,+212600000010,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-011,M26752448,Fikri,Imane,Imane Fikri,ELV-TCSF2-01,M26752448,Hiba Fikri,TCSF2,1,parent011@example.invalid,+212600000011,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-012,M26828432,Ait Lahcen,Sanae,Sanae Ait Lahcen,ELV-TCSF2-02,M26828432,Meryem Ait Lahcen,TCSF2,2,parent012@example.invalid,+212600000012,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-013,M26105504,Alaoui,Fatima,Fatima Alaoui,ELV-TCSF2-03,M26105504,Adil Alaoui,TCSF2,3,parent013@example.invalid,+212600000013,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-014,M26861648,Berrada,Fouad,Fouad Berrada,ELV-TCSF2-04,M26861648,Othmane Berrada,TCSF2,4,parent014@example.invalid,+212600000014,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-015,F26558543,Lahlou,Ghizlane,Ghizlane Lahlou,ELV-TCSF2-05,F26558543,Nour Lahlou,TCSF2,5,parent015@example.invalid,+212600000015,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-016,F26398526,Kabbaj,Bouchra,Bouchra Kabbaj,ELV-TCSF2-06,F26398526,Aya Kabbaj,TCSF2,6,parent016@example.invalid,+212600000016,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-017,F26371079,Saidi,Abdellah,Abdellah Saidi,ELV-TCSF2-07,F26371079,Yasmin Saidi,TCSF2,7,parent017@example.invalid,+212600000017,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-018,M26686414,El Fassi,Amina,Amina El Fassi,ELV-TCSF2-08,M26686414,Imran El Fassi,TCSF2,8,parent018@example.invalid,+212600000018,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-019,F26731772,Bouzid,Samira,Samira Bouzid,ELV-TCSF2-09,F26731772,Ayoub Bouzid,TCSF2,9,parent019@example.invalid,+212600000019,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-020,F26327146,Rami,Driss,Driss Rami,ELV-TCSF2-10,F26327146,Aya Rami,TCSF2,10,parent020@example.invalid,+212600000020,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-021,M26362612,Jabri,Abderrahim,Abderrahim Jabri,ELV-TCSF3-01,M26362612,Dounia Jabri,TCSF3,1,parent021@example.invalid,+212600000021,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-022,M26508343,Bakkali,Said,Said Bakkali,ELV-TCSF3-02,M26508343,Ilham Bakkali,TCSF3,2,parent022@example.invalid,+212600000022,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-023,M26668305,Ziani,Khalid,Khalid Ziani,ELV-TCSF3-03,M26668305,Rayan Ziani,TCSF3,3,parent023@example.invalid,+212600000023,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-024,M26797860,Bennani,Hassan,Hassan Bennani,ELV-TCSF3-04,M26797860,Nisrine Bennani,TCSF3,4,parent024@example.invalid,+212600000024,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-025,M26846277,Chraibi,Abdelilah,Abdelilah Chraibi,ELV-TCSF3-05,M26846277,Yassine Chraibi,TCSF3,5,parent025@example.invalid,+212600000025,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-026,F26205266,El Amrani,Jamal,Jamal El Amrani,ELV-TCSF3-06,F26205266,Bilal El Amrani,TCSF3,6,parent026@example.invalid,+212600000026,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-027,M26135796,Mouline,Naima,Naima Mouline,ELV-TCSF3-07,M26135796,Hamza Mouline,TCSF3,7,parent027@example.invalid,+212600000027,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-028,F26983121,Zerouali,Rajae,Rajae Zerouali,ELV-TCSF3-08,F26983121,Ilyas Zerouali,TCSF3,8,parent028@example.invalid,+212600000028,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-029,M26626163,Boukili,Malika,Malika Boukili,ELV-TCSF3-09,M26626163,Othmane Boukili,TCSF3,9,parent029@example.invalid,+212600000029,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-030,F26555042,Mansouri,Mounir,Mounir Mansouri,ELV-TCSF3-10,F26555042,Ghita Mansouri,TCSF3,10,parent030@example.invalid,+212600000030,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-031,M26708495,Rami,Brahim,Brahim Rami,ELV-TCSF4-01,M26708495,Aya Rami,TCSF4,1,parent031@example.invalid,+212600000031,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-032,F26680774,Benkirane,Loubna,Loubna Benkirane,ELV-TCSF4-02,F26680774,Lina Benkirane,TCSF4,2,parent032@example.invalid,+212600000032,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-033,M26920086,Bennis,Nadia,Nadia Bennis,ELV-TCSF4-03,M26920086,Yasmin Bennis,TCSF4,3,parent033@example.invalid,+212600000033,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-034,M26429593,Mernissi,Hicham,Hicham Mernissi,ELV-TCSF4-04,M26429593,Nisrine Mernissi,TCSF4,4,parent034@example.invalid,+212600000034,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-035,F26340762,El Mansouri,Leila,Leila El Mansouri,ELV-TCSF4-05,F26340762,Soufiane El Mansouri,TCSF4,5,parent035@example.invalid,+212600000035,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-036,M26746781,El Idrissi,Noureddine,Noureddine El Idrissi,ELV-TCSF4-06,M26746781,Mouad El Idrissi,TCSF4,6,parent036@example.invalid,+212600000036,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-037,F26162528,Tahiri,Adil,Adil Tahiri,ELV-TCSF4-07,F26162528,Anas Tahiri,TCSF4,7,parent037@example.invalid,+212600000037,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-038,F26099088,Naciri,Hanane,Hanane Naciri,ELV-TCSF4-08,F26099088,Amine Naciri,TCSF4,8,parent038@example.invalid,+212600000038,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-039,F26112914,Belkadi,Mehdi,Mehdi Belkadi,ELV-TCSF4-09,F26112914,Zakaria Belkadi,TCSF4,9,parent039@example.invalid,+212600000039,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-040,M26725285,Lamrani,Souad,Souad Lamrani,ELV-TCSF4-10,M26725285,Amine Lamrani,TCSF4,10,parent040@example.invalid,+212600000040,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-041,F26126743,Mansouri,Saida,Saida Mansouri,ELV-TCSF5-01,F26126743,Yassine Mansouri,TCSF5,1,parent041@example.invalid,+212600000041,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-042,M26985245,Amrani,Karim,Karim Amrani,ELV-TCSF5-02,M26985245,Anas Amrani,TCSF5,2,parent042@example.invalid,+212600000042,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-043,M26434505,Tazi,Abdelkader,Abdelkader Tazi,ELV-TCSF5-03,M26434505,Ghita Tazi,TCSF5,3,parent043@example.invalid,+212600000043,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-044,M26873265,El Gharbi,Abdelaziz,Abdelaziz El Gharbi,ELV-TCSF5-04,M26873265,Mehdi El Gharbi,TCSF5,4,parent044@example.invalid,+212600000044,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-045,F26860638,Fikri,Houda,Houda Fikri,ELV-TCSF5-05,F26860638,Adam Fikri,TCSF5,5,parent045@example.invalid,+212600000045,APPROUVEE,parent,2026-11-09,2026-11-09
+PAR-046,M26877840,Ait Lahcen,Hamid,Hamid Ait Lahcen,ELV-TCSF5-06,M26877840,Ayoub Ait Lahcen,TCSF5,6,parent046@example.invalid,+212600000046,EN_ATTENTE,parent,2026-11-09,
+PAR-047,M26926268,Alaoui,Mourad,Mourad Alaoui,ELV-TCSF5-07,M26926268,Nour Alaoui,TCSF5,7,parent047@example.invalid,+212600000047,EN_ATTENTE,parent,2026-11-09,
+PAR-048,M26272958,Berrada,Youssef,Youssef Berrada,ELV-TCSF5-08,M26272958,Anas Berrada,TCSF5,8,parent048@example.invalid,+212600000048,EN_ATTENTE,parent,2026-11-09,
+PAR-049,M26455891,Lahlou,Aicha,Aicha Lahlou,ELV-TCSF5-09,M26455891,Ghita Lahlou,TCSF5,9,parent049@example.invalid,+212600000049,EN_ATTENTE,parent,2026-11-09,
+PAR-050,M26383960,Kabbaj,Meryem,Meryem Kabbaj,ELV-TCSF5-10,M26383960,Aya Kabbaj,TCSF5,10,parent050@example.invalid,+212600000050,EN_ATTENTE,parent,2026-11-09,

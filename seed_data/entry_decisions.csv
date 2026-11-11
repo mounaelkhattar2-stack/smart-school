@@ -1,0 +1,5 @@
+﻿decision_id,student_id,masar_id,eleve,classe_id,absence_source_lesson_id,statut,lesson_autorisee_id,decision_direction,date_decision,motif_direction
+RET-001,ELV-TCSF1-03,M26143166,Nabil Tahiri,TCSF1,SEM26-01-TCSF1-M1,EN_ATTENTE,,,,Aucune autorisation de retour accordée. Le blocage reste actif.
+RET-002,ELV-TCSF2-06,F26398526,Aya Kabbaj,TCSF2,SEM26-02-TCSF2-S1,REFUSEE,,DIR-001,2026-11-09T12:00,Retour refusé. Le blocage reste actif.
+RET-003,ELV-TCSF3-02,M26508343,Ilham Bakkali,TCSF3,SEM26-03-TCSF3-S1,AUTORISEE,SEM26-04-TCSF3-S1,DIR-001,2026-11-09T12:00,Retour autorisé pour cette séance uniquement. Le blocage est clôturé après la présence à cette séance.
+RET-004,ELV-TCSF4-09,F26112914,Zakaria Belkadi,TCSF4,SEM26-04-TCSF4-M1,EN_ATTENTE,,,,Aucune autorisation de retour accordée. Le blocage reste actif.

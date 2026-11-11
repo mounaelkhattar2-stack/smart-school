@@ -1,0 +1,72 @@
+﻿role,nom_complet,identifiant,mot_de_passe_initial,lien,student_id,teacher_id,classe_id
+DIRECTION,Direction de l’établissement,DIR-001,QPv7ro@ertM6gEy4,Compte Direction — accès administratif complet,,,
+ENSEIGNANT,Youssef El Amrani,ENS-MAT-M,pfZ2#XyDVdkihT$u,Mathématiques — équipe Matin,,ENS-MAT-M,
+ENSEIGNANT,Rachid Zerouali,ENS-MAT-A,C2RBjAbJvZNz%REu,Mathématiques — équipe Après-midi,,ENS-MAT-A,
+ENSEIGNANT,Salma Bennani,ENS-FRA-M,kz!3kL!3hd6GLP4A,Français — équipe Matin,,ENS-FRA-M,
+ENSEIGNANT,Meryem Lahlou,ENS-FRA-A,Kqayv@cC2ob%sC8p,Français — équipe Après-midi,,ENS-FRA-A,
+ENSEIGNANT,Hamza Alaoui,ENS-ARA-M,x@zy6jBGb@BdJ%%D,Arabe — équipe Matin,,ENS-ARA-M,
+ENSEIGNANT,Adil Ouazzani,ENS-ARA-A,bYZWvhaQ43hL#$gx,Arabe — équipe Après-midi,,ENS-ARA-A,
+ENSEIGNANT,Nadia Idrissi,ENS-PHY-M,!9qEVwz$MA4gdkZ2,Physique-Chimie — équipe Matin,,ENS-PHY-M,
+ENSEIGNANT,Houda Belkadi,ENS-PHY-A,JfcDHY@B%Hkf2Pk9,Physique-Chimie — équipe Après-midi,,ENS-PHY-A,
+ENSEIGNANT,Omar Berrada,ENS-SVT-M,y66zWXZf$73p#A9C,Sciences de la Vie et de la Terre (SVT) — équipe Matin,,ENS-SVT-M,
+ENSEIGNANT,Karim Mouline,ENS-SVT-A,GmjtzGJE%P2a%Pw9,Sciences de la Vie et de la Terre (SVT) — équipe Après-midi,,ENS-SVT-A,
+ENSEIGNANT,Imane Tahiri,ENS-PHI-M,nzf4tP@GXxX4V4vZ,Philosophie — équipe Matin,,ENS-PHI-M,
+ENSEIGNANT,Loubna Lamrani,ENS-PHI-A,W$fLypRs5C42U67Y,Philosophie — équipe Après-midi,,ENS-PHI-A,
+ENSEIGNANT,Mehdi El Fassi,ENS-HGE-M,Cxmnng7Y#C8#evuA,Histoire-Géographie — équipe Matin,,ENS-HGE-M,
+ENSEIGNANT,Bilal Saidi,ENS-HGE-A,REq2#et4!apN!bvV,Histoire-Géographie — équipe Après-midi,,ENS-HGE-A,
+ENSEIGNANT,Khadija Chraibi,ENS-EDU-M,2M#bR#MMU7tk3%Jc,Éducation islamique — équipe Matin,,ENS-EDU-M,
+ENSEIGNANT,Ghita Naciri,ENS-EDU-A,xcU%2e$r3DixgEQx,Éducation islamique — équipe Après-midi,,ENS-EDU-A,
+ENSEIGNANT,Anas Mansouri,ENS-EPS-M,HUCFQyVC8$tap$5Z,Éducation physique et sportive — équipe Matin,,ENS-EPS-M,
+ENSEIGNANT,Amine Boukili,ENS-EPS-A,Y@6u2YWZXtdJQ#E7,Éducation physique et sportive — équipe Après-midi,,ENS-EPS-A,
+ENSEIGNANT,Sanae Kabbaj,ENS-INF-M,doaEWfaBh#hc3ouD,Informatique — équipe Matin,,ENS-INF-M,
+ENSEIGNANT,Zineb El Gharbi,ENS-INF-A,HfrHJ7oA@96gUz$5,Informatique — équipe Après-midi,,ENS-INF-A,
+PARENT,Khadija El Mansouri,M26455096,J7LL!@bruN56eyT4,Parent de Siham El Mansouri — TCSF1 n° 1,ELV-TCSF1-01,,TCSF1
+PARENT,Salwa El Idrissi,F26284849,#ap25QPJ7tu%x$o#,Parent de Lina El Idrissi — TCSF1 n° 2,ELV-TCSF1-02,,TCSF1
+PARENT,Latifa Tahiri,M26143166,#T8A3X9%pDfmcZ6j,Parent de Nabil Tahiri — TCSF1 n° 3,ELV-TCSF1-03,,TCSF1
+PARENT,Ilham Naciri,F26870554,!ji7t%$S36TmrFrc,Parent de Rayan Naciri — TCSF1 n° 4,ELV-TCSF1-04,,TCSF1
+PARENT,Rachid Belkadi,F26796786,gkKSve7GfP%b9Q52,Parent de Othmane Belkadi — TCSF1 n° 5,ELV-TCSF1-05,,TCSF1
+PARENT,Zahra Lamrani,M26201436,Q8cFXM8m@Y!2BFP$,Parent de Mouad Lamrani — TCSF1 n° 6,ELV-TCSF1-06,,TCSF1
+PARENT,Mustapha Ouazzani,M26432762,%HESg!R%KzbDKM67,Parent de Kawtar Ouazzani — TCSF1 n° 7,ELV-TCSF1-07,,TCSF1
+PARENT,Omar Haddad,F26484667,8@TwXWt2kiyEjZ%5,Parent de Aya Haddad — TCSF1 n° 8,ELV-TCSF1-08,,TCSF1
+PARENT,Mohamed Fadili,F26247149,DE!A#K$5NhWhpmLD,Parent de Salma Fadili — TCSF1 n° 9,ELV-TCSF1-09,,TCSF1
+PARENT,Nawal Jabri,F26697250,SXy3852qE4Uw%QG!,Parent de Sami Jabri — TCSF1 n° 10,ELV-TCSF1-10,,TCSF1
+PARENT,Imane Fikri,M26752448,FP@7oxz5e#b2ZVAQ,Parent de Hiba Fikri — TCSF2 n° 1,ELV-TCSF2-01,,TCSF2
+PARENT,Sanae Ait Lahcen,M26828432,38cymu!yqetjqJL6,Parent de Meryem Ait Lahcen — TCSF2 n° 2,ELV-TCSF2-02,,TCSF2
+PARENT,Fatima Alaoui,M26105504,mN3k#ymmFNV8s$tX,Parent de Adil Alaoui — TCSF2 n° 3,ELV-TCSF2-03,,TCSF2
+PARENT,Fouad Berrada,M26861648,Vnxqir!8$L6$oa4v,Parent de Othmane Berrada — TCSF2 n° 4,ELV-TCSF2-04,,TCSF2
+PARENT,Ghizlane Lahlou,F26558543,bzM6Vr%4d$4aomBj,Parent de Nour Lahlou — TCSF2 n° 5,ELV-TCSF2-05,,TCSF2
+PARENT,Bouchra Kabbaj,F26398526,wVETMRtmiKo6H%Vy,Parent de Aya Kabbaj — TCSF2 n° 6,ELV-TCSF2-06,,TCSF2
+PARENT,Abdellah Saidi,F26371079,YR@a7HGtq8968mVY,Parent de Yasmin Saidi — TCSF2 n° 7,ELV-TCSF2-07,,TCSF2
+PARENT,Amina El Fassi,M26686414,!Qui3pux$rpYzndm,Parent de Imran El Fassi — TCSF2 n° 8,ELV-TCSF2-08,,TCSF2
+PARENT,Samira Bouzid,F26731772,hyzCNr2QF#YBXH3p,Parent de Ayoub Bouzid — TCSF2 n° 9,ELV-TCSF2-09,,TCSF2
+PARENT,Driss Rami,F26327146,Ak4ojyPx3%aRM3s7,Parent de Aya Rami — TCSF2 n° 10,ELV-TCSF2-10,,TCSF2
+PARENT,Abderrahim Jabri,M26362612,BgJt23@VjM3YF@iN,Parent de Dounia Jabri — TCSF3 n° 1,ELV-TCSF3-01,,TCSF3
+PARENT,Said Bakkali,M26508343,R%z2e!hDbdE23qe2,Parent de Ilham Bakkali — TCSF3 n° 2,ELV-TCSF3-02,,TCSF3
+PARENT,Khalid Ziani,M26668305,R!T@@Em!t5j!a5f6,Parent de Rayan Ziani — TCSF3 n° 3,ELV-TCSF3-03,,TCSF3
+PARENT,Hassan Bennani,M26797860,KB$sX6w7fiAV#DUH,Parent de Nisrine Bennani — TCSF3 n° 4,ELV-TCSF3-04,,TCSF3
+PARENT,Abdelilah Chraibi,M26846277,!6Vr5hCYM5tgaz2@,Parent de Yassine Chraibi — TCSF3 n° 5,ELV-TCSF3-05,,TCSF3
+PARENT,Jamal El Amrani,F26205266,T%UP5@i!3kJM%Lp6,Parent de Bilal El Amrani — TCSF3 n° 6,ELV-TCSF3-06,,TCSF3
+PARENT,Naima Mouline,M26135796,S7WFKZj6x2jsky$D,Parent de Hamza Mouline — TCSF3 n° 7,ELV-TCSF3-07,,TCSF3
+PARENT,Rajae Zerouali,F26983121,D@GK45ba!#FL!2kk,Parent de Ilyas Zerouali — TCSF3 n° 8,ELV-TCSF3-08,,TCSF3
+PARENT,Malika Boukili,M26626163,NrM@sm2NEjkzePPu,Parent de Othmane Boukili — TCSF3 n° 9,ELV-TCSF3-09,,TCSF3
+PARENT,Mounir Mansouri,F26555042,mYX98jCD@M%Atq%B,Parent de Ghita Mansouri — TCSF3 n° 10,ELV-TCSF3-10,,TCSF3
+PARENT,Brahim Rami,M26708495,fef28v#QXNFur9yP,Parent de Aya Rami — TCSF4 n° 1,ELV-TCSF4-01,,TCSF4
+PARENT,Loubna Benkirane,F26680774,4JVgv$!uXQaru3Jb,Parent de Lina Benkirane — TCSF4 n° 2,ELV-TCSF4-02,,TCSF4
+PARENT,Nadia Bennis,M26920086,!D4#WDPsVA8JxHvm,Parent de Yasmin Bennis — TCSF4 n° 3,ELV-TCSF4-03,,TCSF4
+PARENT,Hicham Mernissi,M26429593,Meihq5HnFcTF@ju7,Parent de Nisrine Mernissi — TCSF4 n° 4,ELV-TCSF4-04,,TCSF4
+PARENT,Leila El Mansouri,F26340762,g3yhLz$$G#G#a5EV,Parent de Soufiane El Mansouri — TCSF4 n° 5,ELV-TCSF4-05,,TCSF4
+PARENT,Noureddine El Idrissi,M26746781,oVYx9kD$%trFjc8q,Parent de Mouad El Idrissi — TCSF4 n° 6,ELV-TCSF4-06,,TCSF4
+PARENT,Adil Tahiri,F26162528,GGf$DLnve6X6apN9,Parent de Anas Tahiri — TCSF4 n° 7,ELV-TCSF4-07,,TCSF4
+PARENT,Hanane Naciri,F26099088,oi$P4rt@H!QJD%gr,Parent de Amine Naciri — TCSF4 n° 8,ELV-TCSF4-08,,TCSF4
+PARENT,Mehdi Belkadi,F26112914,F$K#go$jGz56do5z,Parent de Zakaria Belkadi — TCSF4 n° 9,ELV-TCSF4-09,,TCSF4
+PARENT,Souad Lamrani,M26725285,WaJ9b!Pxy%Lipfqm,Parent de Amine Lamrani — TCSF4 n° 10,ELV-TCSF4-10,,TCSF4
+PARENT,Saida Mansouri,F26126743,B#gZEjp#Dh2Wfr!g,Parent de Yassine Mansouri — TCSF5 n° 1,ELV-TCSF5-01,,TCSF5
+PARENT,Karim Amrani,M26985245,iGP$WjPvmjHC4Z69,Parent de Anas Amrani — TCSF5 n° 2,ELV-TCSF5-02,,TCSF5
+PARENT,Abdelkader Tazi,M26434505,@v!D@UGSh7wZ$Tfw,Parent de Ghita Tazi — TCSF5 n° 3,ELV-TCSF5-03,,TCSF5
+PARENT,Abdelaziz El Gharbi,M26873265,aooZFkXrFPS@5$PM,Parent de Mehdi El Gharbi — TCSF5 n° 4,ELV-TCSF5-04,,TCSF5
+PARENT,Houda Fikri,F26860638,kW3JJCH#fmbGk2co,Parent de Adam Fikri — TCSF5 n° 5,ELV-TCSF5-05,,TCSF5
+PARENT,Hamid Ait Lahcen,M26877840,u$DU5vZ5HoHK$FUj,Parent de Ayoub Ait Lahcen — TCSF5 n° 6,ELV-TCSF5-06,,TCSF5
+PARENT,Mourad Alaoui,M26926268,2nT!!rgT$Q8A7cS$,Parent de Nour Alaoui — TCSF5 n° 7,ELV-TCSF5-07,,TCSF5
+PARENT,Youssef Berrada,M26272958,eYtajacZe9BqP%iY,Parent de Anas Berrada — TCSF5 n° 8,ELV-TCSF5-08,,TCSF5
+PARENT,Aicha Lahlou,M26455891,sXqUo9ANMXai63U#,Parent de Ghita Lahlou — TCSF5 n° 9,ELV-TCSF5-09,,TCSF5
+PARENT,Meryem Kabbaj,M26383960,25rSXr#j!t@oTiMS,Parent de Aya Kabbaj — TCSF5 n° 10,ELV-TCSF5-10,,TCSF5

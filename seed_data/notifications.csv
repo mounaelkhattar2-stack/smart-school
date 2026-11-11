@@ -1,0 +1,5 @@
+﻿notification_id,role,user_id,title,message,created_at,read
+NOT-002,DIRECTION,DIR-001,Absence à traiter,Une justification d'absence est en attente pour TCSF1.,2026-11-09T10:00,False
+NOT-003,DIRECTION,DIR-001,Demande de retour,Un élève est bloqué et attend une décision de la Direction.,2026-11-09T10:30,False
+NOT-004,TEACHER,ENS-MAT-M,Emploi du temps mis à jour,Votre emploi du temps hebdomadaire est disponible.,2026-11-09T08:00,False
+NOT-005,PARENT,PAR-001,Nouvelle information de présence,Consultez le détail de la dernière séance de votre enfant.,2026-11-09T16:00,False

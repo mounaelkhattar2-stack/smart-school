@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2457d6">
+  <title>SMART SCHOOL — Établissement Abdlkrim El Khatabi</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/login.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <section class="login-card" id="login-card" aria-label="Accès à SMART SCHOOL">
+      <div class="intro-panel">
+        <div class="brand-mark" aria-hidden="true"><span>SC</span></div>
+        <p class="eyebrow">ESPACE SCOLAIRE</p>
+        <h1>SMART SCHOOL</h1>
+        <p class="school-name">Établissement Abdlkrim El Khatabi</p>
+        <p class="intro-copy">Un espace simple pour accompagner la vie scolaire, les cours et les familles.</p>
+        <div class="school-art" aria-hidden="true">
+          <div class="sun"></div><div class="art-building"><span></span><span></span><span></span><i></i></div>
+          <div class="art-ground"></div><div class="art-book">✦</div>
+        </div>
+        <p class="school-year">Année scolaire 2026–2027</p>
+      </div>
+      <div class="form-panel">
+        <div class="tab-list" role="tablist" aria-label="Choisir une action">
+          <button class="tab-button active" type="button" role="tab" id="tab-login" aria-selected="true" aria-controls="login-panel">Connexion</button>
+          <button class="tab-button" type="button" role="tab" id="tab-register" aria-selected="false" aria-controls="register-panel">Inscription parent</button>
+          <span class="tab-indicator" aria-hidden="true"></span>
+        </div>
+        <section class="form-view active" id="login-panel" role="tabpanel" aria-labelledby="tab-login">
+          <div class="form-heading">
+            <p class="eyebrow">BON RETOUR</p>
+            <h2>Connectez-vous</h2>
+            <p>Utilisez l’identifiant et le mot de passe de votre compte.</p>
+          </div>
+          <form id="login-form" novalidate>
+            <label for="login-id">Identifiant</label>
+            <input id="login-id" name="login_id" autocomplete="username" required maxlength="80" placeholder="Votre identifiant">
+            <label for="login-password">Mot de passe</label>
+            <div class="password-wrap"><input id="login-password" name="password" type="password" autocomplete="current-password" required maxlength="200" placeholder="Votre mot de passe"><button class="show-password" type="button" data-toggle-password="login-password" aria-label="Afficher le mot de passe">Afficher</button></div>
+            <button class="primary-button" type="submit">Se connecter <span aria-hidden="true">→</span></button>
+            <p class="form-message" id="login-message" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+        <section class="form-view" id="register-panel" role="tabpanel" aria-labelledby="tab-register" hidden>
+          <div class="form-heading">
+            <p class="eyebrow">NOUVELLE DEMANDE</p>
+            <h2>Inscription parent</h2>
+            <p>La Direction examinera votre demande avant l’activation du compte.</p>
+          </div>
+          <form id="register-form" novalidate>
+            <label for="parent-name">Nom complet du parent</label><input id="parent-name" name="parent_name" required maxlength="120" autocomplete="name">
+            <label for="child-name">Nom complet de l’élève</label><input id="child-name" name="child_name" required maxlength="120">
+            <div class="two-fields"><div><label for="class-id">Classe</label><input id="class-id" name="class_id" required maxlength="20" placeholder="TCSF1"></div><div><label for="class-number">Numéro dans la classe</label><input id="class-number" name="class_number" type="number" min="1" max="60" required></div></div>
+            <label for="massar-id">Code Massar</label><input id="massar-id" name="massar_id" required maxlength="24" autocomplete="off">
+            <label for="parent-email">Adresse e-mail</label><input id="parent-email" name="email" type="email" required maxlength="160" autocomplete="email">
+            <label for="parent-phone">Numéro de téléphone</label><input id="parent-phone" name="phone" type="tel" required maxlength="30" autocomplete="tel">
+            <label for="register-password">Créer un mot de passe</label><div class="password-wrap"><input id="register-password" name="password" type="password" autocomplete="new-password" required minlength="10" maxlength="200"><button class="show-password" type="button" data-toggle-password="register-password" aria-label="Afficher le mot de passe">Afficher</button></div>
+            <label for="register-confirm">Confirmer le mot de passe</label><input id="register-confirm" name="password_confirmation" type="password" autocomplete="new-password" required maxlength="200">
+            <label class="check-row"><input name="confirmed" type="checkbox" required><span>Je confirme que ces informations sont exactes.</span></label>
+            <button class="primary-button" type="submit">Envoyer la demande <span aria-hidden="true">→</span></button>
+            <p class="form-message" id="register-message" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+        <section class="signed-in" id="signed-in" hidden aria-live="polite">
+          <div class="success-icon" aria-hidden="true">✓</div><p class="eyebrow">SESSION SÉCURISÉE</p><h2>Vous êtes connecté</h2><p id="signed-in-name"></p><p class="phase-note">Votre espace est prêt. Les pages de gestion seront ajoutées dans les prochaines phases.</p><button class="secondary-button" id="logout-button" type="button">Se déconnecter</button>
+        </section>
+        <p class="privacy-note"><span aria-hidden="true">⌑</span> Vos accès restent privés et sécurisés.</p>
+      </div>
+    </section>
+  </main>
+    <footer>SMART SCHOOL <span>•</span> Établissement Abdlkrim El Khatabi</footer>
+</body>
+</html>

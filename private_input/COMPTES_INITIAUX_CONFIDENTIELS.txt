@@ -1,0 +1,358 @@
+SMART CLASS — COMPTES INITIAUX CONFIDENTIELS
+NE PAS PUBLIER / NE PAS ENVOYER DANS UN GROUPE / NE PAS COMMITTER SUR GITHUB
+Chaque mot de passe est unique. La base SQLite doit stocker uniquement des hachages bcrypt.
+
+[DIRECTION] Direction de l’établissement
+Identifiant : DIR-001
+Mot de passe initial : QPv7ro@ertM6gEy4
+Lien : Compte Direction — accès administratif complet
+
+[ENSEIGNANT] Youssef El Amrani
+Identifiant : ENS-MAT-M
+Mot de passe initial : pfZ2#XyDVdkihT$u
+Lien : Mathématiques — équipe Matin
+
+[ENSEIGNANT] Rachid Zerouali
+Identifiant : ENS-MAT-A
+Mot de passe initial : C2RBjAbJvZNz%REu
+Lien : Mathématiques — équipe Après-midi
+
+[ENSEIGNANT] Salma Bennani
+Identifiant : ENS-FRA-M
+Mot de passe initial : kz!3kL!3hd6GLP4A
+Lien : Français — équipe Matin
+
+[ENSEIGNANT] Meryem Lahlou
+Identifiant : ENS-FRA-A
+Mot de passe initial : Kqayv@cC2ob%sC8p
+Lien : Français — équipe Après-midi
+
+[ENSEIGNANT] Hamza Alaoui
+Identifiant : ENS-ARA-M
+Mot de passe initial : x@zy6jBGb@BdJ%%D
+Lien : Arabe — équipe Matin
+
+[ENSEIGNANT] Adil Ouazzani
+Identifiant : ENS-ARA-A
+Mot de passe initial : bYZWvhaQ43hL#$gx
+Lien : Arabe — équipe Après-midi
+
+[ENSEIGNANT] Nadia Idrissi
+Identifiant : ENS-PHY-M
+Mot de passe initial : !9qEVwz$MA4gdkZ2
+Lien : Physique-Chimie — équipe Matin
+
+[ENSEIGNANT] Houda Belkadi
+Identifiant : ENS-PHY-A
+Mot de passe initial : JfcDHY@B%Hkf2Pk9
+Lien : Physique-Chimie — équipe Après-midi
+
+[ENSEIGNANT] Omar Berrada
+Identifiant : ENS-SVT-M
+Mot de passe initial : y66zWXZf$73p#A9C
+Lien : Sciences de la Vie et de la Terre (SVT) — équipe Matin
+
+[ENSEIGNANT] Karim Mouline
+Identifiant : ENS-SVT-A
+Mot de passe initial : GmjtzGJE%P2a%Pw9
+Lien : Sciences de la Vie et de la Terre (SVT) — équipe Après-midi
+
+[ENSEIGNANT] Imane Tahiri
+Identifiant : ENS-PHI-M
+Mot de passe initial : nzf4tP@GXxX4V4vZ
+Lien : Philosophie — équipe Matin
+
+[ENSEIGNANT] Loubna Lamrani
+Identifiant : ENS-PHI-A
+Mot de passe initial : W$fLypRs5C42U67Y
+Lien : Philosophie — équipe Après-midi
+
+[ENSEIGNANT] Mehdi El Fassi
+Identifiant : ENS-HGE-M
+Mot de passe initial : Cxmnng7Y#C8#evuA
+Lien : Histoire-Géographie — équipe Matin
+
+[ENSEIGNANT] Bilal Saidi
+Identifiant : ENS-HGE-A
+Mot de passe initial : REq2#et4!apN!bvV
+Lien : Histoire-Géographie — équipe Après-midi
+
+[ENSEIGNANT] Khadija Chraibi
+Identifiant : ENS-EDU-M
+Mot de passe initial : 2M#bR#MMU7tk3%Jc
+Lien : Éducation islamique — équipe Matin
+
+[ENSEIGNANT] Ghita Naciri
+Identifiant : ENS-EDU-A
+Mot de passe initial : xcU%2e$r3DixgEQx
+Lien : Éducation islamique — équipe Après-midi
+
+[ENSEIGNANT] Anas Mansouri
+Identifiant : ENS-EPS-M
+Mot de passe initial : HUCFQyVC8$tap$5Z
+Lien : Éducation physique et sportive — équipe Matin
+
+[ENSEIGNANT] Amine Boukili
+Identifiant : ENS-EPS-A
+Mot de passe initial : Y@6u2YWZXtdJQ#E7
+Lien : Éducation physique et sportive — équipe Après-midi
+
+[ENSEIGNANT] Sanae Kabbaj
+Identifiant : ENS-INF-M
+Mot de passe initial : doaEWfaBh#hc3ouD
+Lien : Informatique — équipe Matin
+
+[ENSEIGNANT] Zineb El Gharbi
+Identifiant : ENS-INF-A
+Mot de passe initial : HfrHJ7oA@96gUz$5
+Lien : Informatique — équipe Après-midi
+
+[PARENT] Khadija El Mansouri
+Identifiant : M26455096
+Mot de passe initial : J7LL!@bruN56eyT4
+Lien : Parent de Siham El Mansouri — TCSF1 n° 1
+
+[PARENT] Salwa El Idrissi
+Identifiant : F26284849
+Mot de passe initial : #ap25QPJ7tu%x$o#
+Lien : Parent de Lina El Idrissi — TCSF1 n° 2
+
+[PARENT] Latifa Tahiri
+Identifiant : M26143166
+Mot de passe initial : #T8A3X9%pDfmcZ6j
+Lien : Parent de Nabil Tahiri — TCSF1 n° 3
+
+[PARENT] Ilham Naciri
+Identifiant : F26870554
+Mot de passe initial : !ji7t%$S36TmrFrc
+Lien : Parent de Rayan Naciri — TCSF1 n° 4
+
+[PARENT] Rachid Belkadi
+Identifiant : F26796786
+Mot de passe initial : gkKSve7GfP%b9Q52
+Lien : Parent de Othmane Belkadi — TCSF1 n° 5
+
+[PARENT] Zahra Lamrani
+Identifiant : M26201436
+Mot de passe initial : Q8cFXM8m@Y!2BFP$
+Lien : Parent de Mouad Lamrani — TCSF1 n° 6
+
+[PARENT] Mustapha Ouazzani
+Identifiant : M26432762
+Mot de passe initial : %HESg!R%KzbDKM67
+Lien : Parent de Kawtar Ouazzani — TCSF1 n° 7
+
+[PARENT] Omar Haddad
+Identifiant : F26484667
+Mot de passe initial : 8@TwXWt2kiyEjZ%5
+Lien : Parent de Aya Haddad — TCSF1 n° 8
+
+[PARENT] Mohamed Fadili
+Identifiant : F26247149
+Mot de passe initial : DE!A#K$5NhWhpmLD
+Lien : Parent de Salma Fadili — TCSF1 n° 9
+
+[PARENT] Nawal Jabri
+Identifiant : F26697250
+Mot de passe initial : SXy3852qE4Uw%QG!
+Lien : Parent de Sami Jabri — TCSF1 n° 10
+
+[PARENT] Imane Fikri
+Identifiant : M26752448
+Mot de passe initial : FP@7oxz5e#b2ZVAQ
+Lien : Parent de Hiba Fikri — TCSF2 n° 1
+
+[PARENT] Sanae Ait Lahcen
+Identifiant : M26828432
+Mot de passe initial : 38cymu!yqetjqJL6
+Lien : Parent de Meryem Ait Lahcen — TCSF2 n° 2
+
+[PARENT] Fatima Alaoui
+Identifiant : M26105504
+Mot de passe initial : mN3k#ymmFNV8s$tX
+Lien : Parent de Adil Alaoui — TCSF2 n° 3
+
+[PARENT] Fouad Berrada
+Identifiant : M26861648
+Mot de passe initial : Vnxqir!8$L6$oa4v
+Lien : Parent de Othmane Berrada — TCSF2 n° 4
+
+[PARENT] Ghizlane Lahlou
+Identifiant : F26558543
+Mot de passe initial : bzM6Vr%4d$4aomBj
+Lien : Parent de Nour Lahlou — TCSF2 n° 5
+
+[PARENT] Bouchra Kabbaj
+Identifiant : F26398526
+Mot de passe initial : wVETMRtmiKo6H%Vy
+Lien : Parent de Aya Kabbaj — TCSF2 n° 6
+
+[PARENT] Abdellah Saidi
+Identifiant : F26371079
+Mot de passe initial : YR@a7HGtq8968mVY
+Lien : Parent de Yasmin Saidi — TCSF2 n° 7
+
+[PARENT] Amina El Fassi
+Identifiant : M26686414
+Mot de passe initial : !Qui3pux$rpYzndm
+Lien : Parent de Imran El Fassi — TCSF2 n° 8
+
+[PARENT] Samira Bouzid
+Identifiant : F26731772
+Mot de passe initial : hyzCNr2QF#YBXH3p
+Lien : Parent de Ayoub Bouzid — TCSF2 n° 9
+
+[PARENT] Driss Rami
+Identifiant : F26327146
+Mot de passe initial : Ak4ojyPx3%aRM3s7
+Lien : Parent de Aya Rami — TCSF2 n° 10
+
+[PARENT] Abderrahim Jabri
+Identifiant : M26362612
+Mot de passe initial : BgJt23@VjM3YF@iN
+Lien : Parent de Dounia Jabri — TCSF3 n° 1
+
+[PARENT] Said Bakkali
+Identifiant : M26508343
+Mot de passe initial : R%z2e!hDbdE23qe2
+Lien : Parent de Ilham Bakkali — TCSF3 n° 2
+
+[PARENT] Khalid Ziani
+Identifiant : M26668305
+Mot de passe initial : R!T@@Em!t5j!a5f6
+Lien : Parent de Rayan Ziani — TCSF3 n° 3
+
+[PARENT] Hassan Bennani
+Identifiant : M26797860
+Mot de passe initial : KB$sX6w7fiAV#DUH
+Lien : Parent de Nisrine Bennani — TCSF3 n° 4
+
+[PARENT] Abdelilah Chraibi
+Identifiant : M26846277
+Mot de passe initial : !6Vr5hCYM5tgaz2@
+Lien : Parent de Yassine Chraibi — TCSF3 n° 5
+
+[PARENT] Jamal El Amrani
+Identifiant : F26205266
+Mot de passe initial : T%UP5@i!3kJM%Lp6
+Lien : Parent de Bilal El Amrani — TCSF3 n° 6
+
+[PARENT] Naima Mouline
+Identifiant : M26135796
+Mot de passe initial : S7WFKZj6x2jsky$D
+Lien : Parent de Hamza Mouline — TCSF3 n° 7
+
+[PARENT] Rajae Zerouali
+Identifiant : F26983121
+Mot de passe initial : D@GK45ba!#FL!2kk
+Lien : Parent de Ilyas Zerouali — TCSF3 n° 8
+
+[PARENT] Malika Boukili
+Identifiant : M26626163
+Mot de passe initial : NrM@sm2NEjkzePPu
+Lien : Parent de Othmane Boukili — TCSF3 n° 9
+
+[PARENT] Mounir Mansouri
+Identifiant : F26555042
+Mot de passe initial : mYX98jCD@M%Atq%B
+Lien : Parent de Ghita Mansouri — TCSF3 n° 10
+
+[PARENT] Brahim Rami
+Identifiant : M26708495
+Mot de passe initial : fef28v#QXNFur9yP
+Lien : Parent de Aya Rami — TCSF4 n° 1
+
+[PARENT] Loubna Benkirane
+Identifiant : F26680774
+Mot de passe initial : 4JVgv$!uXQaru3Jb
+Lien : Parent de Lina Benkirane — TCSF4 n° 2
+
+[PARENT] Nadia Bennis
+Identifiant : M26920086
+Mot de passe initial : !D4#WDPsVA8JxHvm
+Lien : Parent de Yasmin Bennis — TCSF4 n° 3
+
+[PARENT] Hicham Mernissi
+Identifiant : M26429593
+Mot de passe initial : Meihq5HnFcTF@ju7
+Lien : Parent de Nisrine Mernissi — TCSF4 n° 4
+
+[PARENT] Leila El Mansouri
+Identifiant : F26340762
+Mot de passe initial : g3yhLz$$G#G#a5EV
+Lien : Parent de Soufiane El Mansouri — TCSF4 n° 5
+
+[PARENT] Noureddine El Idrissi
+Identifiant : M26746781
+Mot de passe initial : oVYx9kD$%trFjc8q
+Lien : Parent de Mouad El Idrissi — TCSF4 n° 6
+
+[PARENT] Adil Tahiri
+Identifiant : F26162528
+Mot de passe initial : GGf$DLnve6X6apN9
+Lien : Parent de Anas Tahiri — TCSF4 n° 7
+
+[PARENT] Hanane Naciri
+Identifiant : F26099088
+Mot de passe initial : oi$P4rt@H!QJD%gr
+Lien : Parent de Amine Naciri — TCSF4 n° 8
+
+[PARENT] Mehdi Belkadi
+Identifiant : F26112914
+Mot de passe initial : F$K#go$jGz56do5z
+Lien : Parent de Zakaria Belkadi — TCSF4 n° 9
+
+[PARENT] Souad Lamrani
+Identifiant : M26725285
+Mot de passe initial : WaJ9b!Pxy%Lipfqm
+Lien : Parent de Amine Lamrani — TCSF4 n° 10
+
+[PARENT] Saida Mansouri
+Identifiant : F26126743
+Mot de passe initial : B#gZEjp#Dh2Wfr!g
+Lien : Parent de Yassine Mansouri — TCSF5 n° 1
+
+[PARENT] Karim Amrani
+Identifiant : M26985245
+Mot de passe initial : iGP$WjPvmjHC4Z69
+Lien : Parent de Anas Amrani — TCSF5 n° 2
+
+[PARENT] Abdelkader Tazi
+Identifiant : M26434505
+Mot de passe initial : @v!D@UGSh7wZ$Tfw
+Lien : Parent de Ghita Tazi — TCSF5 n° 3
+
+[PARENT] Abdelaziz El Gharbi
+Identifiant : M26873265
+Mot de passe initial : aooZFkXrFPS@5$PM
+Lien : Parent de Mehdi El Gharbi — TCSF5 n° 4
+
+[PARENT] Houda Fikri
+Identifiant : F26860638
+Mot de passe initial : kW3JJCH#fmbGk2co
+Lien : Parent de Adam Fikri — TCSF5 n° 5
+
+[PARENT] Hamid Ait Lahcen
+Identifiant : M26877840
+Mot de passe initial : u$DU5vZ5HoHK$FUj
+Lien : Parent de Ayoub Ait Lahcen — TCSF5 n° 6
+
+[PARENT] Mourad Alaoui
+Identifiant : M26926268
+Mot de passe initial : 2nT!!rgT$Q8A7cS$
+Lien : Parent de Nour Alaoui — TCSF5 n° 7
+
+[PARENT] Youssef Berrada
+Identifiant : M26272958
+Mot de passe initial : eYtajacZe9BqP%iY
+Lien : Parent de Anas Berrada — TCSF5 n° 8
+
+[PARENT] Aicha Lahlou
+Identifiant : M26455891
+Mot de passe initial : sXqUo9ANMXai63U#
+Lien : Parent de Ghita Lahlou — TCSF5 n° 9
+
+[PARENT] Meryem Kabbaj
+Identifiant : M26383960
+Mot de passe initial : 25rSXr#j!t@oTiMS
+Lien : Parent de Aya Kabbaj — TCSF5 n° 10

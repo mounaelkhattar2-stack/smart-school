@@ -1,0 +1,5 @@
+﻿explanation_id,student_id,masar_id,eleve,classe_id,lesson_id,date_absence,motif_parent,statut,decision_direction,decide_par,decide_le,note_interne
+JUST-001,ELV-TCSF1-03,M26143166,Nabil Tahiri,TCSF1,SEM26-01-TCSF1-M1,2026-11-02,Rendez-vous médical,EN_ATTENTE,En attente,,,La justification est distincte de la présence. L'approbation ne transforme jamais ABSENT en PRESENT.
+JUST-002,ELV-TCSF2-06,F26398526,Aya Kabbaj,TCSF2,SEM26-02-TCSF2-S1,2026-11-03,Motif insuffisamment justifié,REFUSEE,Motif rejeté,DIR-001,2026-11-09T10:30,La justification est distincte de la présence. L'approbation ne transforme jamais ABSENT en PRESENT.
+JUST-003,ELV-TCSF3-02,M26508343,Ilham Bakkali,TCSF3,SEM26-03-TCSF3-S1,2026-11-04,Raison familiale justifiée,APPROUVEE,Motif accepté,DIR-001,2026-11-09T10:30,La justification est distincte de la présence. L'approbation ne transforme jamais ABSENT en PRESENT.
+JUST-004,ELV-TCSF4-09,F26112914,Zakaria Belkadi,TCSF4,SEM26-04-TCSF4-M1,2026-11-05,Problème de transport,EN_ATTENTE,En attente,,,La justification est distincte de la présence. L'approbation ne transforme jamais ABSENT en PRESENT.

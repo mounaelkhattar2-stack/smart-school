@@ -1,0 +1,21 @@
+﻿teacher_id,enseignant,matiere,shift,classes_assignees,heures_semaine,max_heures_par_jour
+ENS-MAT-M,Youssef El Amrani,Mathématiques,Matin,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,15,4
+ENS-MAT-A,Rachid Zerouali,Mathématiques,Après-midi,TCSF1; TCSF2; TCSF4; TCSF5,5,4
+ENS-FRA-M,Salma Bennani,Français,Matin,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,12,4
+ENS-FRA-A,Meryem Lahlou,Français,Après-midi,TCSF3; TCSF4; TCSF5,3,4
+ENS-ARA-M,Hamza Alaoui,Arabe,Matin,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,11,4
+ENS-ARA-A,Adil Ouazzani,Arabe,Après-midi,TCSF1; TCSF3; TCSF4; TCSF5,4,4
+ENS-PHY-M,Nadia Idrissi,Physique-Chimie,Matin,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,9,4
+ENS-PHY-A,Houda Belkadi,Physique-Chimie,Après-midi,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,6,4
+ENS-SVT-M,Omar Berrada,Sciences de la Vie et de la Terre (SVT),Matin,TCSF1; TCSF3; TCSF4; TCSF5,6,4
+ENS-SVT-A,Karim Mouline,Sciences de la Vie et de la Terre (SVT),Après-midi,TCSF2; TCSF3; TCSF4,4,4
+ENS-PHI-M,Imane Tahiri,Philosophie,Matin,TCSF1; TCSF3; TCSF4,3,4
+ENS-PHI-A,Loubna Lamrani,Philosophie,Après-midi,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,7,4
+ENS-HGE-M,Mehdi El Fassi,Histoire-Géographie,Matin,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,7,4
+ENS-HGE-A,Bilal Saidi,Histoire-Géographie,Après-midi,TCSF1; TCSF3; TCSF4,3,4
+ENS-EDU-M,Khadija Chraibi,Éducation islamique,Matin,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,8,4
+ENS-EDU-A,Ghita Naciri,Éducation islamique,Après-midi,TCSF1; TCSF2,2,4
+ENS-EPS-M,Anas Mansouri,Éducation physique et sportive,Matin,TCSF1; TCSF2; TCSF3; TCSF4; TCSF5,6,4
+ENS-EPS-A,Amine Boukili,Éducation physique et sportive,Après-midi,TCSF1; TCSF2; TCSF3; TCSF5,4,4
+ENS-INF-M,Sanae Kabbaj,Informatique,Matin,TCSF1; TCSF2; TCSF4,3,4
+ENS-INF-A,Zineb El Gharbi,Informatique,Après-midi,TCSF3; TCSF5,2,4

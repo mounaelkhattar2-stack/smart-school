@@ -1,0 +1,3 @@
+﻿absence_id,teacher_id,enseignant,date,type,motif,remplacement,statut
+PROFABS-001,ENS-FRA-M,Salma Bennani,2026-10-23,Absence justifiée,Rendez-vous médical,ENS-FRA-M,Clôturée
+PROFABS-002,ENS-PHY-A,Houda Belkadi,2026-10-29,Absence signalée,Empêchement personnel,À planifier,À traiter

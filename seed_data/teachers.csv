@@ -1,0 +1,21 @@
+﻿teacher_id,login_id,nom,prenom,nom_complet,matiere_code,matiere,shift,email,telephone,mot_de_passe_demo,statut,max_heures_par_jour,max_shift_par_jour
+ENS-MAT-M,ENS-MAT-M,El Amrani,Youssef,Youssef El Amrani,MAT,Mathématiques,Matin,ens-mat-m@smartclass.example.invalid,+212600001001,teacher,Actif,4,1
+ENS-MAT-A,ENS-MAT-A,Zerouali,Rachid,Rachid Zerouali,MAT,Mathématiques,Après-midi,ens-mat-a@smartclass.example.invalid,+212600001011,teacher2026,Actif,4,1
+ENS-FRA-M,ENS-FRA-M,Bennani,Salma,Salma Bennani,FRA,Français,Matin,ens-fra-m@smartclass.example.invalid,+212600001002,teacher2026,Actif,4,1
+ENS-FRA-A,ENS-FRA-A,Lahlou,Meryem,Meryem Lahlou,FRA,Français,Après-midi,ens-fra-a@smartclass.example.invalid,+212600001012,teacher2026,Actif,4,1
+ENS-ARA-M,ENS-ARA-M,Alaoui,Hamza,Hamza Alaoui,ARA,Arabe,Matin,ens-ara-m@smartclass.example.invalid,+212600001003,teacher2026,Actif,4,1
+ENS-ARA-A,ENS-ARA-A,Ouazzani,Adil,Adil Ouazzani,ARA,Arabe,Après-midi,ens-ara-a@smartclass.example.invalid,+212600001013,teacher2026,Actif,4,1
+ENS-PHY-M,ENS-PHY-M,Idrissi,Nadia,Nadia Idrissi,PHY,Physique-Chimie,Matin,ens-phy-m@smartclass.example.invalid,+212600001004,teacher2026,Actif,4,1
+ENS-PHY-A,ENS-PHY-A,Belkadi,Houda,Houda Belkadi,PHY,Physique-Chimie,Après-midi,ens-phy-a@smartclass.example.invalid,+212600001014,teacher2026,Actif,4,1
+ENS-SVT-M,ENS-SVT-M,Berrada,Omar,Omar Berrada,SVT,Sciences de la Vie et de la Terre (SVT),Matin,ens-svt-m@smartclass.example.invalid,+212600001005,teacher2026,Actif,4,1
+ENS-SVT-A,ENS-SVT-A,Mouline,Karim,Karim Mouline,SVT,Sciences de la Vie et de la Terre (SVT),Après-midi,ens-svt-a@smartclass.example.invalid,+212600001015,teacher2026,Actif,4,1
+ENS-PHI-M,ENS-PHI-M,Tahiri,Imane,Imane Tahiri,PHI,Philosophie,Matin,ens-phi-m@smartclass.example.invalid,+212600001006,teacher2026,Actif,4,1
+ENS-PHI-A,ENS-PHI-A,Lamrani,Loubna,Loubna Lamrani,PHI,Philosophie,Après-midi,ens-phi-a@smartclass.example.invalid,+212600001016,teacher2026,Actif,4,1
+ENS-HGE-M,ENS-HGE-M,El Fassi,Mehdi,Mehdi El Fassi,HGE,Histoire-Géographie,Matin,ens-hge-m@smartclass.example.invalid,+212600001007,teacher2026,Actif,4,1
+ENS-HGE-A,ENS-HGE-A,Saidi,Bilal,Bilal Saidi,HGE,Histoire-Géographie,Après-midi,ens-hge-a@smartclass.example.invalid,+212600001017,teacher2026,Actif,4,1
+ENS-EDU-M,ENS-EDU-M,Chraibi,Khadija,Khadija Chraibi,EDU,Éducation islamique,Matin,ens-edu-m@smartclass.example.invalid,+212600001008,teacher2026,Actif,4,1
+ENS-EDU-A,ENS-EDU-A,Naciri,Ghita,Ghita Naciri,EDU,Éducation islamique,Après-midi,ens-edu-a@smartclass.example.invalid,+212600001018,teacher2026,Actif,4,1
+ENS-EPS-M,ENS-EPS-M,Mansouri,Anas,Anas Mansouri,EPS,Éducation physique et sportive,Matin,ens-eps-m@smartclass.example.invalid,+212600001009,teacher2026,Actif,4,1
+ENS-EPS-A,ENS-EPS-A,Boukili,Amine,Amine Boukili,EPS,Éducation physique et sportive,Après-midi,ens-eps-a@smartclass.example.invalid,+212600001019,teacher2026,Actif,4,1
+ENS-INF-M,ENS-INF-M,Kabbaj,Sanae,Sanae Kabbaj,INF,Informatique,Matin,ens-inf-m@smartclass.example.invalid,+212600001010,teacher2026,Actif,4,1
+ENS-INF-A,ENS-INF-A,El Gharbi,Zineb,Zineb El Gharbi,INF,Informatique,Après-midi,ens-inf-a@smartclass.example.invalid,+212600001020,teacher2026,Actif,4,1
