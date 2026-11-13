@@ -8,8 +8,13 @@ const express = require('express');
 const session = require('express-session');
 const bcrypt = require('bcryptjs');
 const { parse } = require('csv-parse/sync');
+const { createClient } = require('@supabase/supabase-js');
 
 const ROOT = __dirname;
+if (typeof process.loadEnvFile === 'function' && fs.existsSync(path.join(ROOT,'.env'))) process.loadEnvFile(path.join(ROOT,'.env'));
+const supabaseAdmin = process.env.SUPABASE_URL && process.env.SUPABASE_SECRET_KEY
+  ? createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SECRET_KEY, { auth:{autoRefreshToken:false,persistSession:false} })
+  : null;
 const DB_DIR = path.join(ROOT, 'data');
 const DB_PATH = process.env.SMART_CLASS_DB_PATH || path.join(DB_DIR, 'smart-class.db');
 const PRIVATE_CREDENTIALS = path.join(ROOT, 'private_input', 'COMPTES_INITIAUX_CONFIDENTIELS.csv');
@@ -507,6 +512,24 @@ app.get('/api/me', (req,res) => {
   const user=req.session.user;
   return res.json({ authenticated: true, user: { role:user.role, fullName:user.fullName, loginId:user.loginId } });
 });
+app.post('/api/session/exchange', async (req,res) => {
+  if (!supabaseAdmin) return res.status(503).json({error:'Authentification Supabase indisponible.'});
+  const token=String(req.get('authorization')||'').replace(/^Bearer\s+/i,'');
+  if (!token || token.length>8192) return res.status(401).json({error:'Session Supabase invalide.'});
+  try {
+    const verification=await fetch(`${process.env.SUPABASE_URL.replace(/\/$/,'')}/auth/v1/user`,{headers:{apikey:process.env.SUPABASE_PUBLISHABLE_KEY,Authorization:`Bearer ${token}`}});
+    if(!verification.ok)return res.status(401).json({error:'Session Supabase invalide.'});
+    const user=await verification.json();
+    if (!user?.id) return res.status(401).json({error:'Session Supabase invalide.'});
+    const {data:profile,error:profileError}=await supabaseAdmin.from('profiles').select('account_code,full_name,role,status,legacy_user_id').eq('id',user.id).single();
+    if (profileError || !profile || profile.status!=='ACTIVE' || !['DIRECTION','TEACHER','PARENT'].includes(profile.role)) return res.status(403).json({error:'Compte inactif ou non autorisé.'});
+    req.session.regenerate(sessionError=>{
+      if(sessionError)return res.status(500).json({error:'Ouverture de session impossible.'});
+      req.session.user={id:profile.legacy_user_id,authId:user.id,role:profile.role,fullName:profile.full_name,loginId:profile.account_code};
+      req.session.save(saveError=>{if(saveError)return res.status(500).json({error:'Ouverture de session impossible.'});res.json({authenticated:true,user:{role:profile.role,fullName:profile.full_name,loginId:profile.account_code}});});
+    });
+  } catch { return res.status(401).json({error:'Session Supabase invalide.'}); }
+});
 app.post('/api/login', (req,res) => {
   if (rateLimited(req)) return res.status(429).json({ error: 'Trop de tentatives. Réessayez dans quelques minutes.' });
   const login=normalizeLogin(req.body && req.body.login_id);
@@ -525,7 +548,7 @@ app.post('/api/login', (req,res) => {
     });
   });
 });
-app.post('/api/logout', (req,res) => {
+app.post('/api/logout', async (req,res) => {
   const user=req.session.user;
   if (!user) return res.json({ ok:true });
   audit(user.id,'LOGOUT','user',user.id);

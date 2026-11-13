@@ -1,14 +1,19 @@
 <!doctype html>
 <html lang="fr">
 <head>
+  <base href="/smart-school/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#2457d6">
   <title>SMART SCHOOL — Administration</title>
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/admin.css">
-  <link rel="stylesheet" href="/admin-extra.css">
-  <script src="/app.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="admin-extra.css">
+  <script src="vendor/supabase.js" defer></script>
+  <script src="supabase-config.js" defer></script>
+  <script src="supabase-client.js" defer></script>
+  <script src="direction-data.js" defer></script>
+  <script src="app.js" data-reference="/app.js" defer></script>
 </head>
 <body>
     <section class="admin-app" id="admin-app">
@@ -27,6 +32,7 @@
           <button class="nav-item" data-view="timetable" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M8 2v4m8-4v4M3 9h18m-13 4h3m3 0h3m-9 4h3m3 0h3"/></svg><span>Emploi du temps</span></button>
           <button class="nav-item" data-view="requests" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v13H8l-4 4zM8 9h8m-8 4h5"/></svg><span>Demandes d'inscription</span><span class="nav-count warning" id="request-count"></span></button>
           <button class="nav-item" data-view="notifications" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9m-8 12h4"/></svg><span>Notifications</span></button>
+          <button class="nav-item" data-view="accounts" type="button"><span class="class-symbol">◎</span><span>Comptes</span></button>
           <button class="nav-item" data-view="settings" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="m19.4 15 .1.1 1.4 1.1-1.5 2.6-1.7-.7a8 8 0 0 1-1.7 1l-.3 1.9h-3l-.3-1.9a8 8 0 0 1-1.7-1l-1.7.7-1.5-2.6 1.4-1.1a7 7 0 0 1 0-2l-1.4-1.1 1.5-2.6 1.7.7a8 8 0 0 1 1.7-1l.3-1.9h3l.3 1.9a8 8 0 0 1 1.7 1l1.7-.7 1.5 2.6-1.4 1.1a7 7 0 0 1 0 2Z" transform="translate(-1 -1) scale(.96)"/></svg><span>Paramètres</span></button>
         </nav>
         <div class="sidebar-bottom"><div class="sidebar-note"><span class="note-icon">i</span><div><strong>Données initiales</strong><span>Les fiches générées restent à vérifier.</span></div></div><div class="sidebar-profile"><span class="profile-avatar">D</span><div class="profile-copy"><strong id="admin-user-name">Direction</strong><span>Administrateur</span></div><button id="admin-logout" class="logout-icon" type="button" aria-label="Se déconnecter" title="Se déconnecter">↗</button></div></div>

@@ -6,15 +6,33 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "check": "node --test"
+    "check": "node --test test/*.test.js",
+    "test:supabase:rls-db": "node tools/test-supabase-rls-db.mjs",
+    "test:supabase:auth": "node tools/test-supabase-rls.mjs",
+    "test:supabase:disposable-roles": "node tools/verify-disposable-role-access.mjs",
+    "test:supabase:parent-mapping": "node tools/verify-parent-auth-mapping.mjs",
+    "test:supabase:disposable-parent": "node tools/verify-disposable-parent-auth.mjs",
+    "test:supabase:registration": "node tools/verify-parent-registration-rpc.mjs",
+    "test:supabase:registration-submission": "node tools/verify-parent-registration-submission.mjs",
+    "test:supabase:storage": "node tools/verify-disposable-storage.mjs",
+    "test:supabase:realtime": "node tools/verify-disposable-realtime.mjs",
+    "build:pages": "node tools/build-pages.mjs",
+    "validate:workflows": "node tools/validate-workflows.mjs",
+    "test:pages:static": "node tools/smoke-static-pages.mjs"
   },
   "engines": {
     "node": ">=22.5.0"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
     "bcryptjs": "^3.0.2",
     "csv-parse": "^6.1.0",
     "express": "^5.1.0",
-    "express-session": "^1.18.2"
+    "express-session": "^1.18.2",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0",
+    "supabase": "^3.1.0"
   }
 }

@@ -1,13 +1,17 @@
 <!doctype html>
 <html lang="fr">
 <head>
+  <base href="/smart-school/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#2457d6">
   <title>SMART SCHOOL — Espace parent</title>
-  <link rel="stylesheet" href="/styles.css">
-  <link rel="stylesheet" href="/admin-extra.css">
-  <script src="/parent.js" defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="admin-extra.css">
+  <script src="vendor/supabase.js" defer></script>
+  <script src="supabase-config.js" defer></script>
+  <script src="supabase-client.js" defer></script>
+  <script src="parent.js" data-reference="/parent.js" defer></script>
 </head>
 <body>
   <section class="role-app">

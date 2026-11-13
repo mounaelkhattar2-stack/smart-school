@@ -11,3 +11,13 @@ data/backups/
 *service-account*.json
 *firebase-adminsdk*.json
 coverage/
+
+/private_input/
+/data/smart-class.db*
+/data/session-secret
+
+/prod-ca-2021.crt
+
+/dist/
+/supabase/.temp/
+/debug.log

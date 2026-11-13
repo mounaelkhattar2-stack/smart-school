@@ -1,0 +1,28 @@
+project_id = "dnkaxkxncgnrgijrmstx"
+
+[api]
+enabled = true
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+major_version = 17
+
+[auth]
+enabled = true
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["http://127.0.0.1:5173", "https://mounaelkhattar2-stack.github.io/smart-school/"]
+enable_signup = false
+
+[realtime]
+enabled = true
+
+[functions.parent-register-request]
+verify_jwt = false
+
+[functions.direction-parent-registration]
+verify_jwt = true
+
+[functions.direction-account-management]
+verify_jwt = true

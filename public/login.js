@@ -1,35 +1,14 @@
 'use strict';
-const tabs=[...document.querySelectorAll('.tab-button')];
-const indicator=document.querySelector('.tab-indicator');
+const tabs=[...document.querySelectorAll('.tab-button')],indicator=document.querySelector('.tab-indicator');
 function showTab(name){const registering=name==='register';tabs.forEach((tab,index)=>{const active=index===(registering?1:0);tab.classList.toggle('active',active);tab.setAttribute('aria-selected',String(active));});indicator.style.transform=registering?'translateX(116px)':'translateX(0)';indicator.style.width=registering?'129px':'76px';document.querySelector('#login-panel').hidden=registering;document.querySelector('#register-panel').hidden=!registering;}
 tabs[0].addEventListener('click',()=>showTab('login'));tabs[1].addEventListener('click',()=>showTab('register'));
 tabs.forEach((tab,index)=>tab.addEventListener('keydown',event=>{if(event.key==='ArrowRight'||event.key==='ArrowLeft'){event.preventDefault();tabs[index===0?1:0].click();}}));
 document.querySelectorAll('[data-toggle-password]').forEach(button=>button.addEventListener('click',()=>{const input=document.getElementById(button.dataset.togglePassword),visible=input.type==='password';input.type=visible?'text':'password';button.textContent=visible?'Masquer':'Afficher';button.setAttribute('aria-label',visible?'Masquer le mot de passe':'Afficher le mot de passe');}));
 function setMessage(id,text,success=false){const node=document.getElementById(id);node.textContent=text;node.classList.toggle('success',success);}
-async function api(url,options={}){const response=await fetch(url,{credentials:'same-origin',...options,headers:{...(options.body?{'Content-Type':'application/json'}:{}),...(options.headers||{})}});let data={};try{data=await response.json();}catch{}if(!response.ok)throw new Error(data.error||'Le serveur n’a pas pu traiter la demande.');return data;}
-function go(role){const destination={DIRECTION:'/admin',PARENT:'/parent',TEACHER:'/teacher'}[role];if(!destination)throw new Error('Le rôle de ce compte n’est pas reconnu.');location.replace(destination);}
+function go(role){const destination={DIRECTION:'admin/',PARENT:'parent/',TEACHER:'teacher/'}[role];if(!destination)throw new Error('Le rôle de ce compte n’est pas reconnu.');location.replace(window.smartSchoolPath(destination));}
+async function profileFor(user){const {data,error}=await window.smartSchoolSupabase.from('profiles').select('account_code,full_name,role,status').eq('id',user.id).single();if(error||!data)throw new Error('Le profil scolaire de ce compte est introuvable.');if(!['ACTIVE','RESET_REQUIRED'].includes(data.status))throw new Error('Ce compte est inactif. Contactez la Direction.');if(!['DIRECTION','TEACHER','PARENT'].includes(data.role))throw new Error('Rôle de compte invalide.');return data;}
+async function openSupabaseSession(session){const profile=await profileFor(session.user);if(profile.status==='RESET_REQUIRED'){location.replace(window.smartSchoolPath('change-password/'));return;}go(profile.role);}
 const loginForm=document.querySelector('#login-form');
-if(!loginForm.dataset.loginHandlerBound){
-  loginForm.dataset.loginHandlerBound='true';
-  loginForm.addEventListener('submit',async event=>{
-    event.preventDefault();
-    if(loginForm.dataset.loginInProgress==='true')return;
-    loginForm.dataset.loginInProgress='true';
-    const submitButton=loginForm.querySelector('[type="submit"]');
-    submitButton.disabled=true;
-    submitButton.setAttribute('aria-busy','true');
-    setMessage('login-message','');
-    const form=new FormData(loginForm);
-    try{
-      const result=await api('/api/login',{method:'POST',body:JSON.stringify({login_id:form.get('login_id'),password:form.get('password')})});
-      go(result.user.role);
-    }catch(error){
-      setMessage('login-message',error.message||'Identifiant ou mot de passe incorrect.');
-      loginForm.dataset.loginInProgress='false';
-      submitButton.disabled=false;
-      submitButton.removeAttribute('aria-busy');
-    }
-  });
-}
-document.querySelector('#register-form').addEventListener('submit',async event=>{event.preventDefault();setMessage('register-message','');const form=new FormData(event.currentTarget);if(form.get('password')!==form.get('password_confirmation'))return setMessage('register-message','Les deux mots de passe ne correspondent pas.');if(String(form.get('password')).length<10)return setMessage('register-message','Choisissez un mot de passe d’au moins 10 caractères.');try{const body=Object.fromEntries(form.entries());body.confirmed=form.get('confirmed')==='on';const result=await api('/api/register/parent',{method:'POST',body:JSON.stringify(body)});setMessage('register-message',result.message||'Votre demande a été prise en compte.',true);event.currentTarget.reset();}catch(error){setMessage('register-message',error.message);}});
-(async()=>{try{const session=await api('/api/me');if(session.authenticated)go(session.user.role);}catch(error){setMessage('login-message',error.message);}})();
+loginForm.addEventListener('submit',async event=>{event.preventDefault();if(loginForm.dataset.loginInProgress==='true')return;loginForm.dataset.loginInProgress='true';const button=loginForm.querySelector('[type="submit"]');button.disabled=true;button.setAttribute('aria-busy','true');setMessage('login-message','');const input=new FormData(loginForm);try{const {data,error}=await window.smartSchoolSupabase.auth.signInWithPassword({email:window.smartSchoolLoginEmail(input.get('login_id')),password:String(input.get('password')||'')});if(error||!data.session)throw new Error('Identifiant ou mot de passe incorrect.');await openSupabaseSession(data.session);}catch(error){await window.smartSchoolSupabase.auth.signOut({scope:'local'}).catch(()=>{});setMessage('login-message',error.message||'Identifiant ou mot de passe incorrect.');loginForm.dataset.loginInProgress='false';button.disabled=false;button.removeAttribute('aria-busy');}});
+document.querySelector('#register-form')?.addEventListener('submit',async event=>{event.preventDefault();const form=event.currentTarget;if(form.dataset.submitting==='true')return;form.dataset.submitting='true';const button=form.querySelector('[type="submit"]');button.disabled=true;button.setAttribute('aria-busy','true');setMessage('register-message','');const data=Object.fromEntries(new FormData(form).entries());data.confirmed=form.elements.confirmed.checked;try{const {data:result,error}=await window.smartSchoolSupabase.functions.invoke('parent-register-request',{body:data});if(error)throw error;form.reset();const message=result?.account_id?`Demande transmise, en attente de validation. Votre identifiant prévu est : ${result.account_id}. Le compte ne sera actif qu’après approbation de la Direction.`:'Votre demande a été transmise. La Direction doit la vérifier avant toute création de compte.';setMessage('register-message',message,true);}catch{setMessage('register-message','La demande n’a pas pu être transmise. Vérifiez votre connexion et réessayez.');}finally{form.dataset.submitting='false';button.disabled=false;button.removeAttribute('aria-busy');}});
+(async()=>{try{const {data:{session}}=await window.smartSchoolSupabase.auth.getSession();if(session)await openSupabaseSession(session);}catch(error){setMessage('login-message',error.message||'Impossible de vérifier votre session.');}})();
