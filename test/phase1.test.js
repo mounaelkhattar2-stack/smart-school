@@ -6,24 +6,50 @@ const fs = require('node:fs');
 const path = require('node:path');
 const os = require('node:os');
 const { parse } = require('csv-parse/sync');
-const { DatabaseSync } = require('node:sqlite');
+const { DatabaseSync, backup } = require('node:sqlite');
 process.env.NODE_ENV='test';
 const sourceDb = process.env.SMART_CLASS_TEST_SOURCE || path.join(__dirname,'..','data','smart-class.db');
 const testDir = fs.mkdtempSync(path.join(os.tmpdir(),'smart-class-phase2-'));
 const testDb = path.join(testDir,'phase2-test.db');
-const sourceConnection=new DatabaseSync(sourceDb,{readOnly:true});
-fs.writeFileSync(testDb,sourceConnection.serialize());sourceConnection.close();
-process.env.SMART_CLASS_DB_PATH = testDb;
-const { app, db, findActiveLesson, setSchoolClockTestOverride } = require('../server');
 const bcrypt=require('bcryptjs');
+let app, db, findActiveLesson, setSchoolClockTestOverride;
+let direction, teacherRecord, approvedParent, pendingParent, server;
 
 const credentials = parse(fs.readFileSync(path.join(__dirname,'..','private_input','COMPTES_INITIAUX_CONFIDENTIELS.csv'),'utf8'),{columns:true,bom:true,skip_empty_lines:true});
 const credentialById = new Map(credentials.map(row => [row.identifiant,row]));
-const direction = credentialById.get('DIR-001');
-const teacherRecord = db.prepare("SELECT login_id FROM users WHERE role='TEACHER' LIMIT 1").get();
-const approvedParent = db.prepare("SELECT login_id FROM users WHERE role='PARENT' LIMIT 1").get();
-const pendingParent = db.prepare("SELECT login_id FROM parents WHERE registration_status='EN_ATTENTE' LIMIT 1").get();
-const server = app.listen(0,'127.0.0.1');
+
+async function makeIsolatedTestDatabase() {
+  const sourceConnection = new DatabaseSync(sourceDb,{readOnly:true});
+  try {
+    if (typeof backup === 'function') {
+      // Node's SQLite online backup API creates a consistent copy, including
+      // committed WAL contents, without touching the source database files.
+      await backup(sourceConnection,testDb);
+    } else {
+      // `backup()` was added in Node 22.16. Keep compatibility with earlier
+      // Node 22 releases by asking SQLite itself to snapshot into the temp dir.
+      const destination=testDb.replaceAll("'","''");
+      sourceConnection.exec(`VACUUM INTO '${destination}'`);
+    }
+  } finally {
+    sourceConnection.close();
+  }
+}
+
+test.before(async () => {
+  await makeIsolatedTestDatabase();
+  process.env.SMART_CLASS_DB_PATH = testDb;
+  ({ app, db, findActiveLesson, setSchoolClockTestOverride } = require('../server'));
+  direction = credentialById.get('DIR-001');
+  teacherRecord = db.prepare("SELECT login_id FROM users WHERE role='TEACHER' LIMIT 1").get();
+  approvedParent = db.prepare("SELECT login_id FROM users WHERE role='PARENT' LIMIT 1").get();
+  pendingParent = db.prepare("SELECT login_id FROM parents WHERE registration_status='EN_ATTENTE' LIMIT 1").get();
+  server = app.listen(0,'127.0.0.1');
+  await new Promise((resolve,reject)=>{
+    server.once('listening',resolve);
+    server.once('error',reject);
+  });
+});
 
 async function postLogin(record) {
   const address = server.address();
@@ -41,7 +67,12 @@ async function loginCookie(record) {
 const baseUrl=()=>`http://127.0.0.1:${server.address().port}`;
 async function apiCall(path,cookie,{method='GET',body}={}){return fetch(`${baseUrl()}${path}`,{method,headers:{cookie,...(body?{'content-type':'application/json'}:{})},...(body?{body:JSON.stringify(body)}:{})});}
 
-test.after(() => { server.close(); db.close(); fs.rmSync(testDir,{recursive:true,force:true}); delete process.env.SMART_CLASS_DB_PATH; });
+test.after(async () => {
+  if(server)await new Promise(resolve=>server.close(resolve));
+  if(db)db.close();
+  fs.rmSync(testDir,{recursive:true,force:true});
+  delete process.env.SMART_CLASS_DB_PATH;
+});
 
 test('imports all supplied record groups and preserves initial attendance states', () => {
   assert.equal(db.prepare('SELECT COUNT(*) AS n FROM classes').get().n,5);
