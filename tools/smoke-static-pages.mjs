@@ -27,6 +27,10 @@ try{
     if(response.status!==200||!response.type?.includes('text/html'))throw Error(`Static route ${route} did not return HTML.`);
     if(!response.body.includes(`<title>${title}</title>`))throw Error(`Static route ${route} returned the wrong page.`);
     console.log(`PASS: direct static request for ${route} returned its dashboard HTML.`);
+    await page.goto(`http://127.0.0.1:4175/smart-school/${route}`);
+    await page.waitForFunction(()=>location.pathname==='/smart-school/'&&!!document.querySelector('#login-form'),null,{timeout:10000}).catch(()=>{});
+    if(new URL(page.url()).pathname!=='/smart-school/'||!await page.locator('#login-form').count())throw Error(`Unauthenticated direct navigation to ${route} was not redirected to login.`);
+    console.log(`PASS: unauthenticated direct navigation to ${route} returns to login.`);
   }
   await page.setViewportSize({width:390,height:844});await page.goto('http://127.0.0.1:4175/smart-school/');
   if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw Error('Login page overflows at mobile width.');

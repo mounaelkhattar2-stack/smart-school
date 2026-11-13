@@ -4,10 +4,11 @@ import process from 'node:process';
 
 const root=process.cwd();
 const out=path.join(root,'dist');
-const env=Object.fromEntries((fs.existsSync(path.join(root,'.env'))?fs.readFileSync(path.join(root,'.env'),'utf8'):'').split(/\r?\n/).filter(x=>x&& !x.trim().startsWith('#')).map(line=>{const i=line.indexOf('=');return i<0?['','']:[line.slice(0,i).trim(),line.slice(i+1).trim().replace(/^['"]|['"]$/g,'')]}));
 const publicConfig=fs.readFileSync(path.join(root,'public','supabase-config.js'),'utf8');
-const url=process.env.SUPABASE_URL||env.SUPABASE_URL||publicConfig.match(/url\s*:\s*['"]([^'"]+)/)?.[1];
-const key=process.env.SUPABASE_PUBLISHABLE_KEY||env.SUPABASE_PUBLISHABLE_KEY||publicConfig.match(/publishableKey\s*:\s*['"]([^'"]+)/)?.[1];
+// Only read explicitly public build variables. Never open .env: it may contain
+// database URLs, service credentials, or other secrets that do not belong here.
+const url=process.env.SUPABASE_URL||publicConfig.match(/url\s*:\s*['"]([^'"]+)/)?.[1];
+const key=process.env.SUPABASE_PUBLISHABLE_KEY||publicConfig.match(/publishableKey\s*:\s*['"]([^'"]+)/)?.[1];
 if(!url||!key)throw new Error('SUPABASE_URL and SUPABASE_PUBLISHABLE_KEY are required to build the static site.');
 fs.rmSync(out,{recursive:true,force:true});fs.mkdirSync(out,{recursive:true});
 fs.cpSync(path.join(root,'public'),out,{recursive:true});

@@ -1,4 +1,4 @@
-name: Build and test static site
+name: Build and deploy SMART SCHOOL to GitHub Pages
 
 on:
   push:
@@ -16,19 +16,46 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Check out release branch
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - name: Install locked dependencies
         run: npm ci
+      - name: Install Chromium for static browser checks
+        run: npx playwright install --with-deps chromium
       - name: Run application tests
         run: npm run check
-      - name: Validate GitHub Actions workflow files
+      - name: Validate workflow files
         run: npm run validate:workflows
-      - name: Build static site and scan published files for secrets
+      - name: Build the static site and scan the artifact
         run: npm run build:pages
         env:
           SUPABASE_URL: ${{ vars.SUPABASE_URL }}
           SUPABASE_PUBLISHABLE_KEY: ${{ vars.SUPABASE_PUBLISHABLE_KEY }}
+      - name: Check static routes and unauthenticated protection
+        run: npm run test:pages:static
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    if: github.ref == 'refs/heads/supabase-migration'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
